@@ -7,243 +7,243 @@
 
 import UIKit
 
-class GameRecordsViewController: UIViewController {
+class ChronicleArchivesExhibitor: UIViewController {
 
-    private let backgroundImageView = UIImageView()
-    private let titleLabel = UILabel()
-    private let recordsTableView = UITableView()
-    private let closeButton = UIButton()
-    private let clearButton = AestheticButtonView(title: "Clear All Records", variant: .destructive)
+    private let ambientBackgroundRenderer = UIImageView()
+    private let exhibitorProclamation = UILabel()
+    private let chronicleManifestationGrid = UITableView()
+    private let egressPillar = UIButton()
+    private let obliterationPillar = LuminousActionPillar(title: "Clear All Records", variant: .cataclysmic)
 
-    private var gameRecords: [GameRecordEntry] = []
+    private var triumphChronicleCollection: [VictoryChronicleNode] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureUserInterface()
-        setupConstraints()
-        loadGameRecords()
-        configureButtonActions()
+        establishExhibitionLayout()
+        delineateLayoutBoundaries()
+        procureArchivedVictories()
+        establishInteractionProtocols()
     }
 
-    private func configureUserInterface() {
+    private func establishExhibitionLayout() {
         // Background
-        backgroundImageView.image = UIImage(named: "backgruiou")
-        backgroundImageView.contentMode = .scaleAspectFill
-        backgroundImageView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(backgroundImageView)
+        ambientBackgroundRenderer.image = UIImage(named: "backgruiou")
+        ambientBackgroundRenderer.contentMode = .scaleAspectFill
+        ambientBackgroundRenderer.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(ambientBackgroundRenderer)
 
         // Close button
-        closeButton.setTitle("✕", for: .normal)
-        closeButton.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
-        closeButton.setTitleColor(.white, for: .normal)
-        closeButton.backgroundColor = UIColor.black.withAlphaComponent(0.4)
-        closeButton.layer.cornerRadius = 20
-        closeButton.translatesAutoresizingMaskIntoConstraints = false
-        closeButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
-        view.addSubview(closeButton)
+        egressPillar.setTitle("✕", for: .normal)
+        egressPillar.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
+        egressPillar.setTitleColor(.white, for: .normal)
+        egressPillar.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+        egressPillar.layer.cornerRadius = 20
+        egressPillar.translatesAutoresizingMaskIntoConstraints = false
+        egressPillar.addTarget(self, action: #selector(egressPercussionDetected), for: .touchUpInside)
+        view.addSubview(egressPillar)
 
         // Title
-        titleLabel.text = "Game Records"
-        titleLabel.font = UIFont.boldSystemFont(ofSize: 28)
-        titleLabel.textColor = .white
-        titleLabel.textAlignment = .center
-        titleLabel.layer.shadowColor = UIColor.black.cgColor
-        titleLabel.layer.shadowOffset = CGSize(width: 0, height: 2)
-        titleLabel.layer.shadowRadius = 4
-        titleLabel.layer.shadowOpacity = 0.8
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(titleLabel)
+        exhibitorProclamation.text = "Game Records"
+        exhibitorProclamation.font = UIFont.boldSystemFont(ofSize: 28)
+        exhibitorProclamation.textColor = .white
+        exhibitorProclamation.textAlignment = .center
+        exhibitorProclamation.layer.shadowColor = UIColor.black.cgColor
+        exhibitorProclamation.layer.shadowOffset = CGSize(width: 0, height: 2)
+        exhibitorProclamation.layer.shadowRadius = 4
+        exhibitorProclamation.layer.shadowOpacity = 0.8
+        exhibitorProclamation.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(exhibitorProclamation)
 
         // Table view
-        recordsTableView.backgroundColor = UIColor.white.withAlphaComponent(0.9)
-        recordsTableView.layer.cornerRadius = 12
-        recordsTableView.delegate = self
-        recordsTableView.dataSource = self
-        recordsTableView.register(GameRecordTableCell.self, forCellReuseIdentifier: "GameRecordCell")
-        recordsTableView.separatorStyle = .singleLine
-        recordsTableView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(recordsTableView)
+        chronicleManifestationGrid.backgroundColor = UIColor.white.withAlphaComponent(0.9)
+        chronicleManifestationGrid.layer.cornerRadius = 12
+        chronicleManifestationGrid.delegate = self
+        chronicleManifestationGrid.dataSource = self
+        chronicleManifestationGrid.register(VictoryChronicleTablet.self, forCellReuseIdentifier: "GameRecordCell")
+        chronicleManifestationGrid.separatorStyle = .singleLine
+        chronicleManifestationGrid.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(chronicleManifestationGrid)
 
         // Clear button
-        clearButton.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(clearButton)
+        obliterationPillar.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(obliterationPillar)
     }
 
-    private func setupConstraints() {
+    private func delineateLayoutBoundaries() {
         NSLayoutConstraint.activate([
-            backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor),
-            backgroundImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            backgroundImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            ambientBackgroundRenderer.topAnchor.constraint(equalTo: view.topAnchor),
+            ambientBackgroundRenderer.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            ambientBackgroundRenderer.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            ambientBackgroundRenderer.bottomAnchor.constraint(equalTo: view.bottomAnchor),
 
-            closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
-            closeButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            closeButton.widthAnchor.constraint(equalToConstant: 40),
-            closeButton.heightAnchor.constraint(equalToConstant: 40),
+            egressPillar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
+            egressPillar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            egressPillar.widthAnchor.constraint(equalToConstant: 40),
+            egressPillar.heightAnchor.constraint(equalToConstant: 40),
 
-            titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
-            titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            exhibitorProclamation.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
+            exhibitorProclamation.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            exhibitorProclamation.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
 
-            recordsTableView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 32),
-            recordsTableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            recordsTableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            recordsTableView.bottomAnchor.constraint(equalTo: clearButton.topAnchor, constant: -20),
+            chronicleManifestationGrid.topAnchor.constraint(equalTo: exhibitorProclamation.bottomAnchor, constant: 32),
+            chronicleManifestationGrid.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            chronicleManifestationGrid.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            chronicleManifestationGrid.bottomAnchor.constraint(equalTo: obliterationPillar.topAnchor, constant: -20),
 
-            clearButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
-            clearButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            clearButton.widthAnchor.constraint(equalToConstant: 280)
+            obliterationPillar.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
+            obliterationPillar.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            obliterationPillar.widthAnchor.constraint(equalToConstant: 280)
         ])
     }
 
-    private func loadGameRecords() {
-        gameRecords = PersistentStorageManager.sharedInstance.fetchTopGameRecords(limit: 50)
-        recordsTableView.reloadData()
+    private func procureArchivedVictories() {
+        triumphChronicleCollection = ArchivedRepositoryKeeper.sovereignExemplar.extractApexChronicles(threshold: 50)
+        chronicleManifestationGrid.reloadData()
     }
 
-    private func configureButtonActions() {
-        clearButton.addTarget(self, action: #selector(clearButtonTapped), for: .touchUpInside)
+    private func establishInteractionProtocols() {
+        obliterationPillar.addTarget(self, action: #selector(obliterationPillarPercussed), for: .touchUpInside)
     }
 
-    @objc private func clearButtonTapped() {
-        ElegantDialogView.displayAlert(
+    @objc private func obliterationPillarPercussed() {
+        OpulentInquiryPanel.renderInquisitivePanel(
             title: "Clear Records",
             message: "Are you sure you want to delete all game records?",
             actions: [
-                ("Cancel", .secondary, {}),
-                ("Clear", .destructive, { [weak self] in
-                    PersistentStorageManager.sharedInstance.clearAllGameRecords()
-                    self?.loadGameRecords()
+                ("Cancel", .subsidiary, {}),
+                ("Clear", .cataclysmic, { [weak self] in
+                    ArchivedRepositoryKeeper.sovereignExemplar.purgeEntireChronicleArchive()
+                    self?.procureArchivedVictories()
                 })
             ]
         )
     }
 
-    @objc private func closeButtonTapped() {
+    @objc private func egressPercussionDetected() {
         dismiss(animated: true)
     }
 }
 
 // MARK: - UITableViewDelegate & UITableViewDataSource
 
-extension GameRecordsViewController: UITableViewDelegate, UITableViewDataSource {
+extension ChronicleArchivesExhibitor: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if gameRecords.isEmpty {
+        if triumphChronicleCollection.isEmpty {
             return 1 // Show empty state
         }
-        return gameRecords.count
+        return triumphChronicleCollection.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "GameRecordCell", for: indexPath) as? GameRecordTableCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "GameRecordCell", for: indexPath) as? VictoryChronicleTablet else {
             return UITableViewCell()
         }
 
-        if gameRecords.isEmpty {
-            cell.configureEmptyState()
+        if triumphChronicleCollection.isEmpty {
+            cell.manifestVacuity()
         } else {
-            let record = gameRecords[indexPath.row]
-            cell.configureWithRecord(record, rank: indexPath.row + 1)
+            let record = triumphChronicleCollection[indexPath.row]
+            cell.inscribeChronicleData(record, rank: indexPath.row + 1)
         }
 
         return cell
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return gameRecords.isEmpty ? 100 : 80
+        return triumphChronicleCollection.isEmpty ? 100 : 80
     }
 }
 
-// MARK: - GameRecordTableCell
+// MARK: - VictoryChronicleTablet
 
-class GameRecordTableCell: UITableViewCell {
+class VictoryChronicleTablet: UITableViewCell {
 
-    private let rankLabel = UILabel()
-    private let scoreLabel = UILabel()
-    private let difficultyLabel = UILabel()
-    private let comboLabel = UILabel()
-    private let dateLabel = UILabel()
+    private let hierarchicalDesignation = UILabel()
+    private let triumphQuantity = UILabel()
+    private let adversityIndicator = UILabel()
+    private let sequenceAmplifier = UILabel()
+    private let temporalStamp = UILabel()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        configureCellLayout()
+        establishTabletGeometry()
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    private func configureCellLayout() {
+    private func establishTabletGeometry() {
         backgroundColor = .clear
         selectionStyle = .none
 
-        rankLabel.font = UIFont.boldSystemFont(ofSize: 20)
-        rankLabel.textColor = UIColor(red: 0.2, green: 0.4, blue: 0.8, alpha: 1.0)
-        rankLabel.translatesAutoresizingMaskIntoConstraints = false
-        contentView.addSubview(rankLabel)
+        hierarchicalDesignation.font = UIFont.boldSystemFont(ofSize: 20)
+        hierarchicalDesignation.textColor = UIColor(red: 0.2, green: 0.4, blue: 0.8, alpha: 1.0)
+        hierarchicalDesignation.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(hierarchicalDesignation)
 
-        scoreLabel.font = UIFont.boldSystemFont(ofSize: 18)
-        scoreLabel.textColor = UIColor(red: 0.2, green: 0.2, blue: 0.3, alpha: 1.0)
-        scoreLabel.translatesAutoresizingMaskIntoConstraints = false
-        contentView.addSubview(scoreLabel)
+        triumphQuantity.font = UIFont.boldSystemFont(ofSize: 18)
+        triumphQuantity.textColor = UIColor(red: 0.2, green: 0.2, blue: 0.3, alpha: 1.0)
+        triumphQuantity.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(triumphQuantity)
 
-        difficultyLabel.font = UIFont.systemFont(ofSize: 14)
-        difficultyLabel.textColor = UIColor(red: 0.4, green: 0.4, blue: 0.5, alpha: 1.0)
-        difficultyLabel.translatesAutoresizingMaskIntoConstraints = false
-        contentView.addSubview(difficultyLabel)
+        adversityIndicator.font = UIFont.systemFont(ofSize: 14)
+        adversityIndicator.textColor = UIColor(red: 0.4, green: 0.4, blue: 0.5, alpha: 1.0)
+        adversityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(adversityIndicator)
 
-        comboLabel.font = UIFont.systemFont(ofSize: 14)
-        comboLabel.textColor = UIColor(red: 0.9, green: 0.5, blue: 0.2, alpha: 1.0)
-        comboLabel.translatesAutoresizingMaskIntoConstraints = false
-        contentView.addSubview(comboLabel)
+        sequenceAmplifier.font = UIFont.systemFont(ofSize: 14)
+        sequenceAmplifier.textColor = UIColor(red: 0.9, green: 0.5, blue: 0.2, alpha: 1.0)
+        sequenceAmplifier.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(sequenceAmplifier)
 
-        dateLabel.font = UIFont.systemFont(ofSize: 12)
-        dateLabel.textColor = UIColor(red: 0.5, green: 0.5, blue: 0.6, alpha: 1.0)
-        dateLabel.translatesAutoresizingMaskIntoConstraints = false
-        contentView.addSubview(dateLabel)
+        temporalStamp.font = UIFont.systemFont(ofSize: 12)
+        temporalStamp.textColor = UIColor(red: 0.5, green: 0.5, blue: 0.6, alpha: 1.0)
+        temporalStamp.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(temporalStamp)
 
         NSLayoutConstraint.activate([
-            rankLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
-            rankLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-            rankLabel.widthAnchor.constraint(equalToConstant: 40),
+            hierarchicalDesignation.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
+            hierarchicalDesignation.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            hierarchicalDesignation.widthAnchor.constraint(equalToConstant: 40),
 
-            scoreLabel.leadingAnchor.constraint(equalTo: rankLabel.trailingAnchor, constant: 12),
-            scoreLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 12),
+            triumphQuantity.leadingAnchor.constraint(equalTo: hierarchicalDesignation.trailingAnchor, constant: 12),
+            triumphQuantity.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 12),
 
-            difficultyLabel.leadingAnchor.constraint(equalTo: scoreLabel.leadingAnchor),
-            difficultyLabel.topAnchor.constraint(equalTo: scoreLabel.bottomAnchor, constant: 4),
+            adversityIndicator.leadingAnchor.constraint(equalTo: triumphQuantity.leadingAnchor),
+            adversityIndicator.topAnchor.constraint(equalTo: triumphQuantity.bottomAnchor, constant: 4),
 
-            comboLabel.leadingAnchor.constraint(equalTo: difficultyLabel.trailingAnchor, constant: 12),
-            comboLabel.centerYAnchor.constraint(equalTo: difficultyLabel.centerYAnchor),
+            sequenceAmplifier.leadingAnchor.constraint(equalTo: adversityIndicator.trailingAnchor, constant: 12),
+            sequenceAmplifier.centerYAnchor.constraint(equalTo: adversityIndicator.centerYAnchor),
 
-            dateLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
-            dateLabel.topAnchor.constraint(equalTo: scoreLabel.topAnchor)
+            temporalStamp.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
+            temporalStamp.topAnchor.constraint(equalTo: triumphQuantity.topAnchor)
         ])
     }
 
-    func configureWithRecord(_ record: GameRecordEntry, rank: Int) {
-        rankLabel.text = "#\(rank)"
-        scoreLabel.text = "\(record.achievedScore) pts"
-        difficultyLabel.text = "Difficulty: \(record.selectedDifficulty)"
-        comboLabel.text = "Combo ×\(record.maximumCombo)"
-        dateLabel.text = record.formattedDate
+    func inscribeChronicleData(_ record: VictoryChronicleNode, rank: Int) {
+        hierarchicalDesignation.text = "#\(rank)"
+        triumphQuantity.text = "\(record.triumphantTally) pts"
+        adversityIndicator.text = "Difficulty: \(record.adversityGradient)"
+        sequenceAmplifier.text = "Combo ×\(record.consecutiveSequencePinnacle)"
+        temporalStamp.text = record.beautifiedTemporalDescriptor
 
-        rankLabel.isHidden = false
-        scoreLabel.isHidden = false
-        difficultyLabel.isHidden = false
-        comboLabel.isHidden = false
-        dateLabel.isHidden = false
+        hierarchicalDesignation.isHidden = false
+        triumphQuantity.isHidden = false
+        adversityIndicator.isHidden = false
+        sequenceAmplifier.isHidden = false
+        temporalStamp.isHidden = false
     }
 
-    func configureEmptyState() {
-        scoreLabel.text = "No records yet"
-        scoreLabel.textAlignment = .center
-        scoreLabel.isHidden = false
+    func manifestVacuity() {
+        triumphQuantity.text = "No records yet"
+        triumphQuantity.textAlignment = .center
+        triumphQuantity.isHidden = false
 
-        rankLabel.isHidden = true
-        difficultyLabel.isHidden = true
-        comboLabel.isHidden = true
-        dateLabel.isHidden = true
+        hierarchicalDesignation.isHidden = true
+        adversityIndicator.isHidden = true
+        sequenceAmplifier.isHidden = true
+        temporalStamp.isHidden = true
     }
 }

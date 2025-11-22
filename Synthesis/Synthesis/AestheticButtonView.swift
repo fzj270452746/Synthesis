@@ -7,109 +7,141 @@
 
 import UIKit
 
-class AestheticButtonView: UIButton {
+class LuminousActionPillar: UIButton {
 
-    private let vibrancyEffect = UIVisualEffectView()
-    private let luminousGradient = CAGradientLayer()
+    private let radiantAureolaMembrane = CALayer()
+    private let incandescenceSpectrum = CAGradientLayer()
+    private let emphasisGradation = CAGradientLayer()
+    private let peripheralDelineation = CAShapeLayer()
 
-    enum ButtonVariant {
-        case primary
-        case secondary
-        case accent
-        case destructive
+    enum ChromaticGradation {
+        case paramount
+        case subsidiary
+        case accentuated
+        case cataclysmic
     }
 
-    private var buttonVariant: ButtonVariant = .primary
+    private var chromaticVariation: ChromaticGradation = .paramount
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        configureInitialAppearance()
+        establishFundamentalVisage()
     }
 
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        configureInitialAppearance()
+        establishFundamentalVisage()
     }
 
-    convenience init(title: String, variant: ButtonVariant = .primary) {
+    convenience init(title: String, variant: ChromaticGradation = .paramount) {
         self.init(frame: .zero)
-        setTitle(title, for: .normal)
-        self.buttonVariant = variant
-        applyVariantStyling()
+        setTitle(title.uppercased(), for: .normal)
+        self.chromaticVariation = variant
+        manifestChromaticDisposition()
     }
 
     func applyCompactStyle() {
-        contentEdgeInsets = UIEdgeInsets(top: 8, left: 12, bottom: 8, right: 12)
-        titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
-        layer.cornerRadius = 12
-        luminousGradient.cornerRadius = 12
+        contentEdgeInsets = UIEdgeInsets(top: 10, left: 18, bottom: 10, right: 18)
+        titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
+        layer.cornerRadius = 14
+        incandescenceSpectrum.cornerRadius = 14
+        emphasisGradation.cornerRadius = 14
     }
 
-    private func configureInitialAppearance() {
-        layer.cornerRadius = 16
-        layer.shadowColor = UIColor.black.cgColor
-        layer.shadowOffset = CGSize(width: 0, height: 4)
-        layer.shadowRadius = 12
-        layer.shadowOpacity = 0.3
+    private func establishFundamentalVisage() {
+        layer.cornerRadius = 20
+        backgroundColor = .clear
+        layer.shadowColor = UIColor(red: 0.0, green: 0.1, blue: 0.3, alpha: 1).cgColor
+        layer.shadowOffset = CGSize(width: 0, height: 10)
+        layer.shadowRadius = 18
+        layer.shadowOpacity = 0.35
 
-        titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-        contentEdgeInsets = UIEdgeInsets(top: 16, left: 32, bottom: 16, right: 32)
+        incandescenceSpectrum.cornerRadius = 20
+        incandescenceSpectrum.startPoint = CGPoint(x: 0, y: 0)
+        incandescenceSpectrum.endPoint = CGPoint(x: 1, y: 1)
+        layer.insertSublayer(incandescenceSpectrum, at: 0)
 
-        addTarget(self, action: #selector(executeScaleAnimation), for: .touchDown)
-        addTarget(self, action: #selector(restoreScaleAnimation), for: [.touchUpInside, .touchUpOutside, .touchCancel])
+        emphasisGradation.cornerRadius = 20
+        emphasisGradation.startPoint = CGPoint(x: 0.5, y: 0)
+        emphasisGradation.endPoint = CGPoint(x: 0.5, y: 1)
+        emphasisGradation.colors = [UIColor.white.withAlphaComponent(0.35).cgColor, UIColor.clear.cgColor]
+        emphasisGradation.opacity = 0.45
+        incandescenceSpectrum.addSublayer(emphasisGradation)
+
+        radiantAureolaMembrane.backgroundColor = UIColor.white.withAlphaComponent(0.15).cgColor
+        radiantAureolaMembrane.shadowColor = UIColor.white.cgColor
+        radiantAureolaMembrane.shadowRadius = 18
+        radiantAureolaMembrane.shadowOpacity = 0.8
+        radiantAureolaMembrane.shadowOffset = .zero
+        radiantAureolaMembrane.opacity = 0
+        layer.insertSublayer(radiantAureolaMembrane, above: incandescenceSpectrum)
+
+        peripheralDelineation.strokeColor = UIColor.white.withAlphaComponent(0.35).cgColor
+        peripheralDelineation.lineWidth = 1.2
+        peripheralDelineation.fillColor = UIColor.clear.cgColor
+        layer.addSublayer(peripheralDelineation)
+
+        titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .heavy)
+        titleLabel?.textAlignment = .center
+        titleLabel?.adjustsFontSizeToFitWidth = true
+        contentEdgeInsets = UIEdgeInsets(top: 18, left: 24, bottom: 18, right: 24)
+        setTitleColor(.white, for: .normal)
+
+        addTarget(self, action: #selector(inaugurateMagnificationSequence), for: .touchDown)
+        addTarget(self, action: #selector(revertDimensionalState), for: [.touchUpInside, .touchUpOutside, .touchCancel])
+
+        manifestChromaticDisposition()
     }
 
-    private func applyVariantStyling() {
-        luminousGradient.removeFromSuperlayer()
-        luminousGradient.frame = bounds
-        luminousGradient.cornerRadius = 16
+    private func manifestChromaticDisposition() {
+        var colors: [CGColor]
 
-        switch buttonVariant {
-        case .primary:
-            luminousGradient.colors = [
-                UIColor(red: 0.2, green: 0.4, blue: 0.8, alpha: 1.0).cgColor,
-                UIColor(red: 0.1, green: 0.2, blue: 0.6, alpha: 1.0).cgColor
+        switch chromaticVariation {
+        case .paramount:
+            colors = [
+                UIColor(red: 0.31, green: 0.07, blue: 0.95, alpha: 1.0).cgColor,
+                UIColor(red: 0.06, green: 0.78, blue: 1.0, alpha: 1.0).cgColor
             ]
-            setTitleColor(.white, for: .normal)
-        case .secondary:
-            luminousGradient.colors = [
-                UIColor(red: 0.4, green: 0.2, blue: 0.6, alpha: 1.0).cgColor,
-                UIColor(red: 0.3, green: 0.1, blue: 0.5, alpha: 1.0).cgColor
+        case .subsidiary:
+            colors = [
+                UIColor(red: 0.09, green: 0.72, blue: 0.65, alpha: 1.0).cgColor,
+                UIColor(red: 0.03, green: 0.24, blue: 0.42, alpha: 1.0).cgColor
             ]
-            setTitleColor(.white, for: .normal)
-        case .accent:
-            luminousGradient.colors = [
-                UIColor(red: 0.9, green: 0.5, blue: 0.2, alpha: 1.0).cgColor,
-                UIColor(red: 0.8, green: 0.3, blue: 0.1, alpha: 1.0).cgColor
+        case .accentuated:
+            colors = [
+                UIColor(red: 1.0, green: 0.49, blue: 0.29, alpha: 1.0).cgColor,
+                UIColor(red: 0.85, green: 0.11, blue: 0.56, alpha: 1.0).cgColor
             ]
-            setTitleColor(.white, for: .normal)
-        case .destructive:
-            luminousGradient.colors = [
-                UIColor(red: 0.9, green: 0.2, blue: 0.2, alpha: 1.0).cgColor,
-                UIColor(red: 0.7, green: 0.1, blue: 0.1, alpha: 1.0).cgColor
+        case .cataclysmic:
+            colors = [
+                UIColor(red: 0.94, green: 0.14, blue: 0.29, alpha: 1.0).cgColor,
+                UIColor(red: 0.5, green: 0.02, blue: 0.12, alpha: 1.0).cgColor
             ]
-            setTitleColor(.white, for: .normal)
         }
 
-        luminousGradient.startPoint = CGPoint(x: 0, y: 0)
-        luminousGradient.endPoint = CGPoint(x: 1, y: 1)
-        layer.insertSublayer(luminousGradient, at: 0)
+        incandescenceSpectrum.colors = colors
     }
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        luminousGradient.frame = bounds
+        incandescenceSpectrum.frame = bounds
+        emphasisGradation.frame = bounds
+        radiantAureolaMembrane.frame = bounds
+        radiantAureolaMembrane.cornerRadius = layer.cornerRadius
+        peripheralDelineation.path = UIBezierPath(roundedRect: bounds.insetBy(dx: 1, dy: 1), cornerRadius: layer.cornerRadius).cgPath
     }
 
-    @objc private func executeScaleAnimation() {
+    @objc private func inaugurateMagnificationSequence() {
         UIView.animate(withDuration: 0.1) {
-            self.transform = CGAffineTransform(scaleX: 0.95, y: 0.95)
+            self.transform = CGAffineTransform(scaleX: 0.96, y: 0.96)
+            self.radiantAureolaMembrane.opacity = 1
         }
     }
 
-    @objc private func restoreScaleAnimation() {
-        UIView.animate(withDuration: 0.1) {
+    @objc private func revertDimensionalState() {
+        UIView.animate(withDuration: 0.15) {
             self.transform = .identity
+            self.radiantAureolaMembrane.opacity = 0
         }
     }
 }

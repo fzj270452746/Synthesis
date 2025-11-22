@@ -7,85 +7,85 @@
 
 import UIKit
 
-class TutorialExpositionViewController: UIViewController {
+class EnlightenmentManualPresenter: UIViewController {
 
-    private let backgroundImageView = UIImageView()
-    private let closeButton = UIButton()
-    private let contentScrollView = UIScrollView()
-    private let contentContainerView = UIView()
+    private let pedagogicalBackdropCanvas = UIImageView()
+    private let completionPillar = UIButton()
+    private let instructionalContentVessel = UIScrollView()
+    private let pedagogicalEncapsulation = UIView()
 
-    private let headerTitleLabel = UILabel()
-    private let objectiveSectionView = InstructionSectionView()
-    private let mechanicsSectionView = InstructionSectionView()
-    private let scoringSectionView = InstructionSectionView()
-    private let strategySectionView = InstructionSectionView()
+    private let magistralProclamation = UILabel()
+    private let aspirationalDomainSegment = PedagogicalDomainSegment()
+    private let operationalPrinciplesSegment = PedagogicalDomainSegment()
+    private let quantificationMethodologySegment = PedagogicalDomainSegment()
+    private let tacticalWisdomSegment = PedagogicalDomainSegment()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureUserInterface()
-        populateInstructionContent()
-        setupConstraints()
+        architectPedagogicalPresentation()
+        infuseEducationalSubstance()
+        delineateLayoutBoundaries()
     }
 
-    private func configureUserInterface() {
+    private func architectPedagogicalPresentation() {
         // Background
-        backgroundImageView.image = UIImage(named: "backgruiou")
-        backgroundImageView.contentMode = .scaleAspectFill
-        backgroundImageView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(backgroundImageView)
+        pedagogicalBackdropCanvas.image = UIImage(named: "backgruiou")
+        pedagogicalBackdropCanvas.contentMode = .scaleAspectFill
+        pedagogicalBackdropCanvas.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(pedagogicalBackdropCanvas)
 
         // Close button
-        closeButton.setTitle("✕", for: .normal)
-        closeButton.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
-        closeButton.setTitleColor(.white, for: .normal)
-        closeButton.backgroundColor = UIColor.black.withAlphaComponent(0.4)
-        closeButton.layer.cornerRadius = 20
-        closeButton.translatesAutoresizingMaskIntoConstraints = false
-        closeButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
-        view.addSubview(closeButton)
+        completionPillar.setTitle("✕", for: .normal)
+        completionPillar.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
+        completionPillar.setTitleColor(.white, for: .normal)
+        completionPillar.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+        completionPillar.layer.cornerRadius = 20
+        completionPillar.translatesAutoresizingMaskIntoConstraints = false
+        completionPillar.addTarget(self, action: #selector(completionPercussionDetected), for: .touchUpInside)
+        view.addSubview(completionPillar)
 
         // Scroll view
-        contentScrollView.translatesAutoresizingMaskIntoConstraints = false
-        contentScrollView.showsVerticalScrollIndicator = true
-        view.addSubview(contentScrollView)
+        instructionalContentVessel.translatesAutoresizingMaskIntoConstraints = false
+        instructionalContentVessel.showsVerticalScrollIndicator = true
+        view.addSubview(instructionalContentVessel)
 
         // Container view
-        contentContainerView.translatesAutoresizingMaskIntoConstraints = false
-        contentScrollView.addSubview(contentContainerView)
+        pedagogicalEncapsulation.translatesAutoresizingMaskIntoConstraints = false
+        instructionalContentVessel.addSubview(pedagogicalEncapsulation)
 
         // Header title
-        headerTitleLabel.text = "How to Play"
-        headerTitleLabel.font = UIFont.boldSystemFont(ofSize: 32)
-        headerTitleLabel.textColor = .white
-        headerTitleLabel.textAlignment = .center
-        headerTitleLabel.layer.shadowColor = UIColor.black.cgColor
-        headerTitleLabel.layer.shadowOffset = CGSize(width: 0, height: 2)
-        headerTitleLabel.layer.shadowRadius = 4
-        headerTitleLabel.layer.shadowOpacity = 0.8
-        headerTitleLabel.translatesAutoresizingMaskIntoConstraints = false
-        contentContainerView.addSubview(headerTitleLabel)
+        magistralProclamation.text = "How to Play"
+        magistralProclamation.font = UIFont.boldSystemFont(ofSize: 32)
+        magistralProclamation.textColor = .white
+        magistralProclamation.textAlignment = .center
+        magistralProclamation.layer.shadowColor = UIColor.black.cgColor
+        magistralProclamation.layer.shadowOffset = CGSize(width: 0, height: 2)
+        magistralProclamation.layer.shadowRadius = 4
+        magistralProclamation.layer.shadowOpacity = 0.8
+        magistralProclamation.translatesAutoresizingMaskIntoConstraints = false
+        pedagogicalEncapsulation.addSubview(magistralProclamation)
 
         // Section views
-        objectiveSectionView.translatesAutoresizingMaskIntoConstraints = false
-        contentContainerView.addSubview(objectiveSectionView)
+        aspirationalDomainSegment.translatesAutoresizingMaskIntoConstraints = false
+        pedagogicalEncapsulation.addSubview(aspirationalDomainSegment)
 
-        mechanicsSectionView.translatesAutoresizingMaskIntoConstraints = false
-        contentContainerView.addSubview(mechanicsSectionView)
+        operationalPrinciplesSegment.translatesAutoresizingMaskIntoConstraints = false
+        pedagogicalEncapsulation.addSubview(operationalPrinciplesSegment)
 
-        scoringSectionView.translatesAutoresizingMaskIntoConstraints = false
-        contentContainerView.addSubview(scoringSectionView)
+        quantificationMethodologySegment.translatesAutoresizingMaskIntoConstraints = false
+        pedagogicalEncapsulation.addSubview(quantificationMethodologySegment)
 
-        strategySectionView.translatesAutoresizingMaskIntoConstraints = false
-        contentContainerView.addSubview(strategySectionView)
+        tacticalWisdomSegment.translatesAutoresizingMaskIntoConstraints = false
+        pedagogicalEncapsulation.addSubview(tacticalWisdomSegment)
     }
 
-    private func populateInstructionContent() {
-        objectiveSectionView.configureSectionContent(
+    private func infuseEducationalSubstance() {
+        aspirationalDomainSegment.inscribeDomainSubstance(
             heading: "Objective",
             description: "Match 3 or more adjacent tiles of the same value to merge them into higher-value tiles. Create combos and achieve the highest score possible!"
         )
 
-        mechanicsSectionView.configureSectionContent(
+        operationalPrinciplesSegment.inscribeDomainSubstance(
             heading: "Game Mechanics",
             description: """
             • Place tiles on the grid by tapping empty cells
@@ -97,7 +97,7 @@ class TutorialExpositionViewController: UIViewController {
             """
         )
 
-        scoringSectionView.configureSectionContent(
+        quantificationMethodologySegment.inscribeDomainSubstance(
             heading: "Scoring System",
             description: """
             • Base Score: Tile Value × 10 × Number of Merged Tiles
@@ -107,7 +107,7 @@ class TutorialExpositionViewController: UIViewController {
             """
         )
 
-        strategySectionView.configureSectionContent(
+        tacticalWisdomSegment.inscribeDomainSubstance(
             heading: "Strategic Tips",
             description: """
             • Plan ahead - consider the next tile preview
@@ -119,116 +119,116 @@ class TutorialExpositionViewController: UIViewController {
         )
     }
 
-    private func setupConstraints() {
+    private func delineateLayoutBoundaries() {
         NSLayoutConstraint.activate([
-            backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor),
-            backgroundImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            backgroundImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            pedagogicalBackdropCanvas.topAnchor.constraint(equalTo: view.topAnchor),
+            pedagogicalBackdropCanvas.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            pedagogicalBackdropCanvas.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            pedagogicalBackdropCanvas.bottomAnchor.constraint(equalTo: view.bottomAnchor),
 
-            closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
-            closeButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            closeButton.widthAnchor.constraint(equalToConstant: 40),
-            closeButton.heightAnchor.constraint(equalToConstant: 40),
+            completionPillar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
+            completionPillar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            completionPillar.widthAnchor.constraint(equalToConstant: 40),
+            completionPillar.heightAnchor.constraint(equalToConstant: 40),
 
-            contentScrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 70),
-            contentScrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            contentScrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            contentScrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            instructionalContentVessel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 70),
+            instructionalContentVessel.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            instructionalContentVessel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            instructionalContentVessel.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
 
-            contentContainerView.topAnchor.constraint(equalTo: contentScrollView.topAnchor),
-            contentContainerView.leadingAnchor.constraint(equalTo: contentScrollView.leadingAnchor),
-            contentContainerView.trailingAnchor.constraint(equalTo: contentScrollView.trailingAnchor),
-            contentContainerView.bottomAnchor.constraint(equalTo: contentScrollView.bottomAnchor),
-            contentContainerView.widthAnchor.constraint(equalTo: contentScrollView.widthAnchor),
+            pedagogicalEncapsulation.topAnchor.constraint(equalTo: instructionalContentVessel.topAnchor),
+            pedagogicalEncapsulation.leadingAnchor.constraint(equalTo: instructionalContentVessel.leadingAnchor),
+            pedagogicalEncapsulation.trailingAnchor.constraint(equalTo: instructionalContentVessel.trailingAnchor),
+            pedagogicalEncapsulation.bottomAnchor.constraint(equalTo: instructionalContentVessel.bottomAnchor),
+            pedagogicalEncapsulation.widthAnchor.constraint(equalTo: instructionalContentVessel.widthAnchor),
 
-            headerTitleLabel.topAnchor.constraint(equalTo: contentContainerView.topAnchor, constant: 20),
-            headerTitleLabel.leadingAnchor.constraint(equalTo: contentContainerView.leadingAnchor, constant: 20),
-            headerTitleLabel.trailingAnchor.constraint(equalTo: contentContainerView.trailingAnchor, constant: -20),
+            magistralProclamation.topAnchor.constraint(equalTo: pedagogicalEncapsulation.topAnchor, constant: 20),
+            magistralProclamation.leadingAnchor.constraint(equalTo: pedagogicalEncapsulation.leadingAnchor, constant: 20),
+            magistralProclamation.trailingAnchor.constraint(equalTo: pedagogicalEncapsulation.trailingAnchor, constant: -20),
 
-            objectiveSectionView.topAnchor.constraint(equalTo: headerTitleLabel.bottomAnchor, constant: 24),
-            objectiveSectionView.leadingAnchor.constraint(equalTo: contentContainerView.leadingAnchor, constant: 20),
-            objectiveSectionView.trailingAnchor.constraint(equalTo: contentContainerView.trailingAnchor, constant: -20),
+            aspirationalDomainSegment.topAnchor.constraint(equalTo: magistralProclamation.bottomAnchor, constant: 24),
+            aspirationalDomainSegment.leadingAnchor.constraint(equalTo: pedagogicalEncapsulation.leadingAnchor, constant: 20),
+            aspirationalDomainSegment.trailingAnchor.constraint(equalTo: pedagogicalEncapsulation.trailingAnchor, constant: -20),
 
-            mechanicsSectionView.topAnchor.constraint(equalTo: objectiveSectionView.bottomAnchor, constant: 20),
-            mechanicsSectionView.leadingAnchor.constraint(equalTo: contentContainerView.leadingAnchor, constant: 20),
-            mechanicsSectionView.trailingAnchor.constraint(equalTo: contentContainerView.trailingAnchor, constant: -20),
+            operationalPrinciplesSegment.topAnchor.constraint(equalTo: aspirationalDomainSegment.bottomAnchor, constant: 20),
+            operationalPrinciplesSegment.leadingAnchor.constraint(equalTo: pedagogicalEncapsulation.leadingAnchor, constant: 20),
+            operationalPrinciplesSegment.trailingAnchor.constraint(equalTo: pedagogicalEncapsulation.trailingAnchor, constant: -20),
 
-            scoringSectionView.topAnchor.constraint(equalTo: mechanicsSectionView.bottomAnchor, constant: 20),
-            scoringSectionView.leadingAnchor.constraint(equalTo: contentContainerView.leadingAnchor, constant: 20),
-            scoringSectionView.trailingAnchor.constraint(equalTo: contentContainerView.trailingAnchor, constant: -20),
+            quantificationMethodologySegment.topAnchor.constraint(equalTo: operationalPrinciplesSegment.bottomAnchor, constant: 20),
+            quantificationMethodologySegment.leadingAnchor.constraint(equalTo: pedagogicalEncapsulation.leadingAnchor, constant: 20),
+            quantificationMethodologySegment.trailingAnchor.constraint(equalTo: pedagogicalEncapsulation.trailingAnchor, constant: -20),
 
-            strategySectionView.topAnchor.constraint(equalTo: scoringSectionView.bottomAnchor, constant: 20),
-            strategySectionView.leadingAnchor.constraint(equalTo: contentContainerView.leadingAnchor, constant: 20),
-            strategySectionView.trailingAnchor.constraint(equalTo: contentContainerView.trailingAnchor, constant: -20),
-            strategySectionView.bottomAnchor.constraint(equalTo: contentContainerView.bottomAnchor, constant: -20)
+            tacticalWisdomSegment.topAnchor.constraint(equalTo: quantificationMethodologySegment.bottomAnchor, constant: 20),
+            tacticalWisdomSegment.leadingAnchor.constraint(equalTo: pedagogicalEncapsulation.leadingAnchor, constant: 20),
+            tacticalWisdomSegment.trailingAnchor.constraint(equalTo: pedagogicalEncapsulation.trailingAnchor, constant: -20),
+            tacticalWisdomSegment.bottomAnchor.constraint(equalTo: pedagogicalEncapsulation.bottomAnchor, constant: -20)
         ])
     }
 
-    @objc private func closeButtonTapped() {
+    @objc private func completionPercussionDetected() {
         dismiss(animated: true)
     }
 }
 
-// MARK: - Instruction Section View
+// MARK: - Pedagogical Domain Segment
 
-class InstructionSectionView: UIView {
+class PedagogicalDomainSegment: UIView {
 
-    private let headingLabel = UILabel()
-    private let descriptionLabel = UILabel()
-    private let containerView = UIView()
+    private let thematicProclamation = UILabel()
+    private let expositoryNarration = UILabel()
+    private let segmentEncapsulation = UIView()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        configureAppearance()
+        establishSegmentAesthetic()
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    private func configureAppearance() {
+    private func establishSegmentAesthetic() {
         // Container with semi-transparent background
-        containerView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
-        containerView.layer.cornerRadius = 16
-        containerView.layer.borderWidth = 1
-        containerView.layer.borderColor = UIColor.white.withAlphaComponent(0.2).cgColor
-        containerView.translatesAutoresizingMaskIntoConstraints = false
-        addSubview(containerView)
+        segmentEncapsulation.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        segmentEncapsulation.layer.cornerRadius = 16
+        segmentEncapsulation.layer.borderWidth = 1
+        segmentEncapsulation.layer.borderColor = UIColor.white.withAlphaComponent(0.2).cgColor
+        segmentEncapsulation.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(segmentEncapsulation)
 
         // Heading label
-        headingLabel.font = UIFont.boldSystemFont(ofSize: 22)
-        headingLabel.textColor = UIColor(red: 1.0, green: 0.9, blue: 0.4, alpha: 1.0)
-        headingLabel.numberOfLines = 0
-        headingLabel.translatesAutoresizingMaskIntoConstraints = false
-        containerView.addSubview(headingLabel)
+        thematicProclamation.font = UIFont.boldSystemFont(ofSize: 22)
+        thematicProclamation.textColor = UIColor(red: 1.0, green: 0.9, blue: 0.4, alpha: 1.0)
+        thematicProclamation.numberOfLines = 0
+        thematicProclamation.translatesAutoresizingMaskIntoConstraints = false
+        segmentEncapsulation.addSubview(thematicProclamation)
 
         // Description label
-        descriptionLabel.font = UIFont.systemFont(ofSize: 16)
-        descriptionLabel.textColor = .white
-        descriptionLabel.numberOfLines = 0
-        descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
-        containerView.addSubview(descriptionLabel)
+        expositoryNarration.font = UIFont.systemFont(ofSize: 16)
+        expositoryNarration.textColor = .white
+        expositoryNarration.numberOfLines = 0
+        expositoryNarration.translatesAutoresizingMaskIntoConstraints = false
+        segmentEncapsulation.addSubview(expositoryNarration)
 
         NSLayoutConstraint.activate([
-            containerView.topAnchor.constraint(equalTo: topAnchor),
-            containerView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            containerView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            containerView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            segmentEncapsulation.topAnchor.constraint(equalTo: topAnchor),
+            segmentEncapsulation.leadingAnchor.constraint(equalTo: leadingAnchor),
+            segmentEncapsulation.trailingAnchor.constraint(equalTo: trailingAnchor),
+            segmentEncapsulation.bottomAnchor.constraint(equalTo: bottomAnchor),
 
-            headingLabel.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 16),
-            headingLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 16),
-            headingLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -16),
+            thematicProclamation.topAnchor.constraint(equalTo: segmentEncapsulation.topAnchor, constant: 16),
+            thematicProclamation.leadingAnchor.constraint(equalTo: segmentEncapsulation.leadingAnchor, constant: 16),
+            thematicProclamation.trailingAnchor.constraint(equalTo: segmentEncapsulation.trailingAnchor, constant: -16),
 
-            descriptionLabel.topAnchor.constraint(equalTo: headingLabel.bottomAnchor, constant: 12),
-            descriptionLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 16),
-            descriptionLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -16),
-            descriptionLabel.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -16)
+            expositoryNarration.topAnchor.constraint(equalTo: thematicProclamation.bottomAnchor, constant: 12),
+            expositoryNarration.leadingAnchor.constraint(equalTo: segmentEncapsulation.leadingAnchor, constant: 16),
+            expositoryNarration.trailingAnchor.constraint(equalTo: segmentEncapsulation.trailingAnchor, constant: -16),
+            expositoryNarration.bottomAnchor.constraint(equalTo: segmentEncapsulation.bottomAnchor, constant: -16)
         ])
     }
 
-    func configureSectionContent(heading: String, description: String) {
-        headingLabel.text = heading
-        descriptionLabel.text = description
+    func inscribeDomainSubstance(heading: String, description: String) {
+        thematicProclamation.text = heading
+        expositoryNarration.text = description
     }
 }

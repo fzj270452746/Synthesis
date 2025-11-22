@@ -7,133 +7,133 @@
 
 import UIKit
 
-class ElegantDialogView: UIView {
+class OpulentInquiryPanel: UIView {
 
-    private let containerView = UIView()
-    private let titleLabel = UILabel()
-    private let messageLabel = UILabel()
-    private let buttonsStackView = UIStackView()
-    private var completionHandlers: [() -> Void] = []
+    private let encapsulationVessel = UIView()
+    private let proclamationInscription = UILabel()
+    private let narrativeDescriptor = UILabel()
+    private let interactivePillarOrchestration = UIStackView()
+    private var culminationCallbacks: [() -> Void] = []
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        configureInitialLayout()
+        architectOrchestrationGeometry()
     }
 
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    private func configureInitialLayout() {
+    private func architectOrchestrationGeometry() {
         backgroundColor = UIColor.black.withAlphaComponent(0.6)
 
         // Container setup
-        containerView.backgroundColor = UIColor(white: 0.95, alpha: 1.0)
-        containerView.layer.cornerRadius = 24
-        containerView.layer.shadowColor = UIColor.black.cgColor
-        containerView.layer.shadowOffset = CGSize(width: 0, height: 8)
-        containerView.layer.shadowRadius = 20
-        containerView.layer.shadowOpacity = 0.4
-        containerView.translatesAutoresizingMaskIntoConstraints = false
-        addSubview(containerView)
+        encapsulationVessel.backgroundColor = UIColor(white: 0.95, alpha: 1.0)
+        encapsulationVessel.layer.cornerRadius = 24
+        encapsulationVessel.layer.shadowColor = UIColor.black.cgColor
+        encapsulationVessel.layer.shadowOffset = CGSize(width: 0, height: 8)
+        encapsulationVessel.layer.shadowRadius = 20
+        encapsulationVessel.layer.shadowOpacity = 0.4
+        encapsulationVessel.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(encapsulationVessel)
 
         // Title label
-        titleLabel.font = UIFont.boldSystemFont(ofSize: 24)
-        titleLabel.textColor = UIColor(red: 0.2, green: 0.2, blue: 0.3, alpha: 1.0)
-        titleLabel.textAlignment = .center
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        containerView.addSubview(titleLabel)
+        proclamationInscription.font = UIFont.boldSystemFont(ofSize: 24)
+        proclamationInscription.textColor = UIColor(red: 0.2, green: 0.2, blue: 0.3, alpha: 1.0)
+        proclamationInscription.textAlignment = .center
+        proclamationInscription.translatesAutoresizingMaskIntoConstraints = false
+        encapsulationVessel.addSubview(proclamationInscription)
 
         // Message label
-        messageLabel.font = UIFont.systemFont(ofSize: 16)
-        messageLabel.textColor = UIColor(red: 0.4, green: 0.4, blue: 0.5, alpha: 1.0)
-        messageLabel.textAlignment = .center
-        messageLabel.numberOfLines = 0
-        messageLabel.translatesAutoresizingMaskIntoConstraints = false
-        containerView.addSubview(messageLabel)
+        narrativeDescriptor.font = UIFont.systemFont(ofSize: 16)
+        narrativeDescriptor.textColor = UIColor(red: 0.4, green: 0.4, blue: 0.5, alpha: 1.0)
+        narrativeDescriptor.textAlignment = .center
+        narrativeDescriptor.numberOfLines = 0
+        narrativeDescriptor.translatesAutoresizingMaskIntoConstraints = false
+        encapsulationVessel.addSubview(narrativeDescriptor)
 
         // Buttons stack view
-        buttonsStackView.axis = .vertical
-        buttonsStackView.spacing = 12
-        buttonsStackView.distribution = .fillEqually
-        buttonsStackView.translatesAutoresizingMaskIntoConstraints = false
-        containerView.addSubview(buttonsStackView)
+        interactivePillarOrchestration.axis = .vertical
+        interactivePillarOrchestration.spacing = 12
+        interactivePillarOrchestration.distribution = .fillEqually
+        interactivePillarOrchestration.translatesAutoresizingMaskIntoConstraints = false
+        encapsulationVessel.addSubview(interactivePillarOrchestration)
 
         NSLayoutConstraint.activate([
-            containerView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            containerView.centerYAnchor.constraint(equalTo: centerYAnchor),
-            containerView.leadingAnchor.constraint(greaterThanOrEqualTo: leadingAnchor, constant: 40),
-            containerView.trailingAnchor.constraint(lessThanOrEqualTo: trailingAnchor, constant: -40),
-            containerView.widthAnchor.constraint(lessThanOrEqualToConstant: 340),
+            encapsulationVessel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            encapsulationVessel.centerYAnchor.constraint(equalTo: centerYAnchor),
+            encapsulationVessel.leadingAnchor.constraint(greaterThanOrEqualTo: leadingAnchor, constant: 40),
+            encapsulationVessel.trailingAnchor.constraint(lessThanOrEqualTo: trailingAnchor, constant: -40),
+            encapsulationVessel.widthAnchor.constraint(lessThanOrEqualToConstant: 340),
 
-            titleLabel.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 32),
-            titleLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 24),
-            titleLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -24),
+            proclamationInscription.topAnchor.constraint(equalTo: encapsulationVessel.topAnchor, constant: 32),
+            proclamationInscription.leadingAnchor.constraint(equalTo: encapsulationVessel.leadingAnchor, constant: 24),
+            proclamationInscription.trailingAnchor.constraint(equalTo: encapsulationVessel.trailingAnchor, constant: -24),
 
-            messageLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 16),
-            messageLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 24),
-            messageLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -24),
+            narrativeDescriptor.topAnchor.constraint(equalTo: proclamationInscription.bottomAnchor, constant: 16),
+            narrativeDescriptor.leadingAnchor.constraint(equalTo: encapsulationVessel.leadingAnchor, constant: 24),
+            narrativeDescriptor.trailingAnchor.constraint(equalTo: encapsulationVessel.trailingAnchor, constant: -24),
 
-            buttonsStackView.topAnchor.constraint(equalTo: messageLabel.bottomAnchor, constant: 24),
-            buttonsStackView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 24),
-            buttonsStackView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -24),
-            buttonsStackView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -24),
-            buttonsStackView.heightAnchor.constraint(greaterThanOrEqualToConstant: 50)
+            interactivePillarOrchestration.topAnchor.constraint(equalTo: narrativeDescriptor.bottomAnchor, constant: 24),
+            interactivePillarOrchestration.leadingAnchor.constraint(equalTo: encapsulationVessel.leadingAnchor, constant: 24),
+            interactivePillarOrchestration.trailingAnchor.constraint(equalTo: encapsulationVessel.trailingAnchor, constant: -24),
+            interactivePillarOrchestration.bottomAnchor.constraint(equalTo: encapsulationVessel.bottomAnchor, constant: -24),
+            interactivePillarOrchestration.heightAnchor.constraint(greaterThanOrEqualToConstant: 50)
         ])
     }
 
-    func configureContent(title: String, message: String) {
-        titleLabel.text = title
-        messageLabel.text = message
+    func inscribeContentSubstance(title: String, message: String) {
+        proclamationInscription.text = title
+        narrativeDescriptor.text = message
     }
 
-    func appendActionButton(title: String, variant: AestheticButtonView.ButtonVariant = .primary, handler: @escaping () -> Void) {
-        let button = AestheticButtonView(title: title, variant: variant)
+    func annexInteractivePillar(title: String, variant: LuminousActionPillar.ChromaticGradation = .paramount, handler: @escaping () -> Void) {
+        let button = LuminousActionPillar(title: title, variant: variant)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
-        buttonsStackView.addArrangedSubview(button)
-        completionHandlers.append(handler)
+        button.addTarget(self, action: #selector(pillarPercussionDetected(_:)), for: .touchUpInside)
+        interactivePillarOrchestration.addArrangedSubview(button)
+        culminationCallbacks.append(handler)
     }
 
-    @objc private func buttonTapped(_ sender: UIButton) {
-        if let index = buttonsStackView.arrangedSubviews.firstIndex(of: sender) {
-            dismissWithAnimation {
-                self.completionHandlers[index]()
+    @objc private func pillarPercussionDetected(_ sender: UIButton) {
+        if let index = interactivePillarOrchestration.arrangedSubviews.firstIndex(of: sender) {
+            dissipateWithChoreography {
+                self.culminationCallbacks[index]()
             }
         }
     }
 
-    func presentOnWindow() {
+    func manifestUponViewport() {
         guard let window = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) else { return }
         frame = window.bounds
         window.addSubview(self)
 
         alpha = 0
-        containerView.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+        encapsulationVessel.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
 
         UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: .curveEaseOut) {
             self.alpha = 1
-            self.containerView.transform = .identity
+            self.encapsulationVessel.transform = .identity
         }
     }
 
-    private func dismissWithAnimation(completion: @escaping () -> Void) {
+    private func dissipateWithChoreography(completion: @escaping () -> Void) {
         UIView.animate(withDuration: 0.2, animations: {
             self.alpha = 0
-            self.containerView.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+            self.encapsulationVessel.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
         }) { _ in
             self.removeFromSuperview()
             completion()
         }
     }
 
-    static func displayAlert(title: String, message: String, actions: [(String, AestheticButtonView.ButtonVariant, () -> Void)]) {
-        let dialog = ElegantDialogView()
-        dialog.configureContent(title: title, message: message)
+    static func renderInquisitivePanel(title: String, message: String, actions: [(String, LuminousActionPillar.ChromaticGradation, () -> Void)]) {
+        let dialog = OpulentInquiryPanel()
+        dialog.inscribeContentSubstance(title: title, message: message)
         for action in actions {
-            dialog.appendActionButton(title: action.0, variant: action.1, handler: action.2)
+            dialog.annexInteractivePillar(title: action.0, variant: action.1, handler: action.2)
         }
-        dialog.presentOnWindow()
+        dialog.manifestUponViewport()
     }
 }

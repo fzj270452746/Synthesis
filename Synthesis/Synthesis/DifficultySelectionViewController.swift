@@ -7,65 +7,65 @@
 
 import UIKit
 
-class DifficultySelectionViewController: UIViewController {
+class ChallengeGradientSelector: UIViewController {
 
-    private let backgroundImageView = UIImageView()
-    private let titleLabel = UILabel()
-    private let subtitleLabel = UILabel()
-    private let difficultyGridView = UIView()
-    private let closeButton = UIButton()
+    private let scenicBackdropRenderer = UIImageView()
+    private let proclamationHeader = UILabel()
+    private let expositorySubtext = UILabel()
+    private let adversityGradientMatrix = UIView()
+    private let dismissalPillar = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureUserInterface()
-        setupConstraints()
+        establishSelectorInterface()
+        configureSpatialArrangement()
     }
 
-    private func configureUserInterface() {
+    private func establishSelectorInterface() {
         // Background
-        backgroundImageView.image = UIImage(named: "backgruiou")
-        backgroundImageView.contentMode = .scaleAspectFill
-        backgroundImageView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(backgroundImageView)
+        scenicBackdropRenderer.image = UIImage(named: "backgruiou")
+        scenicBackdropRenderer.contentMode = .scaleAspectFill
+        scenicBackdropRenderer.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(scenicBackdropRenderer)
 
         // Close button
-        closeButton.setTitle("✕", for: .normal)
-        closeButton.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
-        closeButton.setTitleColor(.white, for: .normal)
-        closeButton.backgroundColor = UIColor.black.withAlphaComponent(0.4)
-        closeButton.layer.cornerRadius = 20
-        closeButton.translatesAutoresizingMaskIntoConstraints = false
-        closeButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
-        view.addSubview(closeButton)
+        dismissalPillar.setTitle("✕", for: .normal)
+        dismissalPillar.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
+        dismissalPillar.setTitleColor(.white, for: .normal)
+        dismissalPillar.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+        dismissalPillar.layer.cornerRadius = 20
+        dismissalPillar.translatesAutoresizingMaskIntoConstraints = false
+        dismissalPillar.addTarget(self, action: #selector(dismissalPercussionDetected), for: .touchUpInside)
+        view.addSubview(dismissalPillar)
 
         // Title
-        titleLabel.text = "Select Difficulty"
-        titleLabel.font = UIFont.boldSystemFont(ofSize: 28)
-        titleLabel.textColor = .white
-        titleLabel.textAlignment = .center
-        titleLabel.layer.shadowColor = UIColor.black.cgColor
-        titleLabel.layer.shadowOffset = CGSize(width: 0, height: 2)
-        titleLabel.layer.shadowRadius = 4
-        titleLabel.layer.shadowOpacity = 0.8
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(titleLabel)
+        proclamationHeader.text = "Select Difficulty"
+        proclamationHeader.font = UIFont.boldSystemFont(ofSize: 28)
+        proclamationHeader.textColor = .white
+        proclamationHeader.textAlignment = .center
+        proclamationHeader.layer.shadowColor = UIColor.black.cgColor
+        proclamationHeader.layer.shadowOffset = CGSize(width: 0, height: 2)
+        proclamationHeader.layer.shadowRadius = 4
+        proclamationHeader.layer.shadowOpacity = 0.8
+        proclamationHeader.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(proclamationHeader)
 
         // Subtitle
-        subtitleLabel.text = "Choose the maximum tile value"
-        subtitleLabel.font = UIFont.systemFont(ofSize: 16)
-        subtitleLabel.textColor = UIColor.white.withAlphaComponent(0.9)
-        subtitleLabel.textAlignment = .center
-        subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(subtitleLabel)
+        expositorySubtext.text = "Choose the maximum tile value"
+        expositorySubtext.font = UIFont.systemFont(ofSize: 16)
+        expositorySubtext.textColor = UIColor.white.withAlphaComponent(0.9)
+        expositorySubtext.textAlignment = .center
+        expositorySubtext.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(expositorySubtext)
 
         // Difficulty grid
-        difficultyGridView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(difficultyGridView)
+        adversityGradientMatrix.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(adversityGradientMatrix)
 
-        createDifficultyButtons()
+        fabricateAdversityPillars()
     }
 
-    private func createDifficultyButtons() {
+    private func fabricateAdversityPillars() {
         let difficulties = [3, 4, 5, 6, 7, 8, 9]
         let columns = 4
         let buttonSize: CGFloat = 75
@@ -75,58 +75,58 @@ class DifficultySelectionViewController: UIViewController {
             let row = index / columns
             let col = index % columns
 
-            let button = AestheticButtonView(title: "\(difficulty)", variant: .primary)
+            let button = LuminousActionPillar(title: "\(difficulty)", variant: .paramount)
             button.applyCompactStyle()
             button.tag = difficulty
             button.translatesAutoresizingMaskIntoConstraints = false
-            button.addTarget(self, action: #selector(difficultyButtonTapped(_:)), for: .touchUpInside)
+            button.addTarget(self, action: #selector(adversityPillarPercussed(_:)), for: .touchUpInside)
 
-            difficultyGridView.addSubview(button)
+            adversityGradientMatrix.addSubview(button)
 
             NSLayoutConstraint.activate([
                 button.widthAnchor.constraint(equalToConstant: buttonSize),
                 button.heightAnchor.constraint(equalToConstant: buttonSize),
-                button.leadingAnchor.constraint(equalTo: difficultyGridView.leadingAnchor, constant: CGFloat(col) * (buttonSize + spacing)),
-                button.topAnchor.constraint(equalTo: difficultyGridView.topAnchor, constant: CGFloat(row) * (buttonSize + spacing))
+                button.leadingAnchor.constraint(equalTo: adversityGradientMatrix.leadingAnchor, constant: CGFloat(col) * (buttonSize + spacing)),
+                button.topAnchor.constraint(equalTo: adversityGradientMatrix.topAnchor, constant: CGFloat(row) * (buttonSize + spacing))
             ])
         }
     }
 
-    private func setupConstraints() {
+    private func configureSpatialArrangement() {
         NSLayoutConstraint.activate([
-            backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor),
-            backgroundImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            backgroundImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            scenicBackdropRenderer.topAnchor.constraint(equalTo: view.topAnchor),
+            scenicBackdropRenderer.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            scenicBackdropRenderer.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            scenicBackdropRenderer.bottomAnchor.constraint(equalTo: view.bottomAnchor),
 
-            closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
-            closeButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            closeButton.widthAnchor.constraint(equalToConstant: 40),
-            closeButton.heightAnchor.constraint(equalToConstant: 40),
+            dismissalPillar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
+            dismissalPillar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            dismissalPillar.widthAnchor.constraint(equalToConstant: 40),
+            dismissalPillar.heightAnchor.constraint(equalToConstant: 40),
 
-            titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
-            titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            proclamationHeader.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
+            proclamationHeader.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            proclamationHeader.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
 
-            subtitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 12),
-            subtitleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            subtitleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            expositorySubtext.topAnchor.constraint(equalTo: proclamationHeader.bottomAnchor, constant: 12),
+            expositorySubtext.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            expositorySubtext.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
 
-            difficultyGridView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            difficultyGridView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            difficultyGridView.widthAnchor.constraint(equalToConstant: 348),
-            difficultyGridView.heightAnchor.constraint(equalToConstant: 166)
+            adversityGradientMatrix.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            adversityGradientMatrix.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            adversityGradientMatrix.widthAnchor.constraint(equalToConstant: 348),
+            adversityGradientMatrix.heightAnchor.constraint(equalToConstant: 166)
         ])
     }
 
-    @objc private func difficultyButtonTapped(_ sender: UIButton) {
+    @objc private func adversityPillarPercussed(_ sender: UIButton) {
         let selectedDifficulty = sender.tag
-        let gameVC = GameViewController(maximumValue: selectedDifficulty)
+        let gameVC = ArenaCommandController(maximumValue: selectedDifficulty)
         gameVC.modalPresentationStyle = .fullScreen
         present(gameVC, animated: true)
     }
 
-    @objc private func closeButtonTapped() {
+    @objc private func dismissalPercussionDetected() {
         dismiss(animated: true)
     }
 }

@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(find:*)",
-      "Bash(xcodebuild:*)"
+      "Bash(xcodebuild:*)",
+      "Bash(cat:*)",
+      "Bash(pod install)",
+      "Bash(swift -version:*)",
+      "Bash(tee:*)",
+      "Bash(git checkout:*)",
+      "Bash(xargs rm:*)"
     ],
     "deny": [],
     "ask": []

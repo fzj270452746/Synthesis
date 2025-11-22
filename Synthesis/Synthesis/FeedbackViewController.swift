@@ -7,151 +7,151 @@
 
 import UIKit
 
-class FeedbackViewController: UIViewController {
+class PatronageVoiceCollector: UIViewController {
 
-    private let backgroundImageView = UIImageView()
-    private let titleLabel = UILabel()
-    private let feedbackTextView = UITextView()
-    private let submitButton = AestheticButtonView(title: "Submit Feedback", variant: .primary)
-    private let closeButton = UIButton()
-    private let placeholderLabel = UILabel()
+    private let environmentalBackdropCanvas = UIImageView()
+    private let purposeDeclaration = UILabel()
+    private let narrativeCompositionField = UITextView()
+    private let transmissionPillar = LuminousActionPillar(title: "Submit Feedback", variant: .paramount)
+    private let withdrawalPillar = UIButton()
+    private let instructionalGhostText = UILabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureUserInterface()
-        setupConstraints()
-        configureButtonActions()
+        constructCollectionInterface()
+        delineateLayoutBoundaries()
+        establishInteractionProtocols()
     }
 
-    private func configureUserInterface() {
+    private func constructCollectionInterface() {
         // Background
-        backgroundImageView.image = UIImage(named: "backgruiou")
-        backgroundImageView.contentMode = .scaleAspectFill
-        backgroundImageView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(backgroundImageView)
+        environmentalBackdropCanvas.image = UIImage(named: "backgruiou")
+        environmentalBackdropCanvas.contentMode = .scaleAspectFill
+        environmentalBackdropCanvas.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(environmentalBackdropCanvas)
 
         // Close button
-        closeButton.setTitle("✕", for: .normal)
-        closeButton.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
-        closeButton.setTitleColor(.white, for: .normal)
-        closeButton.backgroundColor = UIColor.black.withAlphaComponent(0.4)
-        closeButton.layer.cornerRadius = 20
-        closeButton.translatesAutoresizingMaskIntoConstraints = false
-        closeButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
-        view.addSubview(closeButton)
+        withdrawalPillar.setTitle("✕", for: .normal)
+        withdrawalPillar.titleLabel?.font = UIFont.systemFont(ofSize: 28, weight: .bold)
+        withdrawalPillar.setTitleColor(.white, for: .normal)
+        withdrawalPillar.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+        withdrawalPillar.layer.cornerRadius = 20
+        withdrawalPillar.translatesAutoresizingMaskIntoConstraints = false
+        withdrawalPillar.addTarget(self, action: #selector(withdrawalPercussionDetected), for: .touchUpInside)
+        view.addSubview(withdrawalPillar)
 
         // Title
-        titleLabel.text = "Feedback"
-        titleLabel.font = UIFont.boldSystemFont(ofSize: 28)
-        titleLabel.textColor = .white
-        titleLabel.textAlignment = .center
-        titleLabel.layer.shadowColor = UIColor.black.cgColor
-        titleLabel.layer.shadowOffset = CGSize(width: 0, height: 2)
-        titleLabel.layer.shadowRadius = 4
-        titleLabel.layer.shadowOpacity = 0.8
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(titleLabel)
+        purposeDeclaration.text = "Feedback"
+        purposeDeclaration.font = UIFont.boldSystemFont(ofSize: 28)
+        purposeDeclaration.textColor = .white
+        purposeDeclaration.textAlignment = .center
+        purposeDeclaration.layer.shadowColor = UIColor.black.cgColor
+        purposeDeclaration.layer.shadowOffset = CGSize(width: 0, height: 2)
+        purposeDeclaration.layer.shadowRadius = 4
+        purposeDeclaration.layer.shadowOpacity = 0.8
+        purposeDeclaration.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(purposeDeclaration)
 
         // Feedback text view
-        feedbackTextView.font = UIFont.systemFont(ofSize: 16)
-        feedbackTextView.backgroundColor = UIColor.white.withAlphaComponent(0.9)
-        feedbackTextView.layer.cornerRadius = 12
-        feedbackTextView.layer.borderWidth = 2
-        feedbackTextView.layer.borderColor = UIColor(white: 0.7, alpha: 1.0).cgColor
-        feedbackTextView.textContainerInset = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
-        feedbackTextView.translatesAutoresizingMaskIntoConstraints = false
-        feedbackTextView.delegate = self
-        view.addSubview(feedbackTextView)
+        narrativeCompositionField.font = UIFont.systemFont(ofSize: 16)
+        narrativeCompositionField.backgroundColor = UIColor.white.withAlphaComponent(0.9)
+        narrativeCompositionField.layer.cornerRadius = 12
+        narrativeCompositionField.layer.borderWidth = 2
+        narrativeCompositionField.layer.borderColor = UIColor(white: 0.7, alpha: 1.0).cgColor
+        narrativeCompositionField.textContainerInset = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
+        narrativeCompositionField.translatesAutoresizingMaskIntoConstraints = false
+        narrativeCompositionField.delegate = self
+        view.addSubview(narrativeCompositionField)
 
         // Placeholder
-        placeholderLabel.text = "Enter your feedback here..."
-        placeholderLabel.font = UIFont.systemFont(ofSize: 16)
-        placeholderLabel.textColor = UIColor.lightGray
-        placeholderLabel.translatesAutoresizingMaskIntoConstraints = false
-        feedbackTextView.addSubview(placeholderLabel)
+        instructionalGhostText.text = "Enter your feedback here..."
+        instructionalGhostText.font = UIFont.systemFont(ofSize: 16)
+        instructionalGhostText.textColor = UIColor.lightGray
+        instructionalGhostText.translatesAutoresizingMaskIntoConstraints = false
+        narrativeCompositionField.addSubview(instructionalGhostText)
 
         // Submit button
-        submitButton.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(submitButton)
+        transmissionPillar.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(transmissionPillar)
     }
 
-    private func setupConstraints() {
+    private func delineateLayoutBoundaries() {
         NSLayoutConstraint.activate([
-            backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor),
-            backgroundImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            backgroundImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            environmentalBackdropCanvas.topAnchor.constraint(equalTo: view.topAnchor),
+            environmentalBackdropCanvas.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            environmentalBackdropCanvas.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            environmentalBackdropCanvas.bottomAnchor.constraint(equalTo: view.bottomAnchor),
 
-            closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
-            closeButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            closeButton.widthAnchor.constraint(equalToConstant: 40),
-            closeButton.heightAnchor.constraint(equalToConstant: 40),
+            withdrawalPillar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
+            withdrawalPillar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            withdrawalPillar.widthAnchor.constraint(equalToConstant: 40),
+            withdrawalPillar.heightAnchor.constraint(equalToConstant: 40),
 
-            titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
-            titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            purposeDeclaration.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
+            purposeDeclaration.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            purposeDeclaration.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
 
-            feedbackTextView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 32),
-            feedbackTextView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            feedbackTextView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            feedbackTextView.heightAnchor.constraint(equalToConstant: 200),
+            narrativeCompositionField.topAnchor.constraint(equalTo: purposeDeclaration.bottomAnchor, constant: 32),
+            narrativeCompositionField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            narrativeCompositionField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            narrativeCompositionField.heightAnchor.constraint(equalToConstant: 200),
 
-            placeholderLabel.topAnchor.constraint(equalTo: feedbackTextView.topAnchor, constant: 12),
-            placeholderLabel.leadingAnchor.constraint(equalTo: feedbackTextView.leadingAnchor, constant: 16),
+            instructionalGhostText.topAnchor.constraint(equalTo: narrativeCompositionField.topAnchor, constant: 12),
+            instructionalGhostText.leadingAnchor.constraint(equalTo: narrativeCompositionField.leadingAnchor, constant: 16),
 
-            submitButton.topAnchor.constraint(equalTo: feedbackTextView.bottomAnchor, constant: 32),
-            submitButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            submitButton.widthAnchor.constraint(equalToConstant: 280)
+            transmissionPillar.topAnchor.constraint(equalTo: narrativeCompositionField.bottomAnchor, constant: 32),
+            transmissionPillar.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            transmissionPillar.widthAnchor.constraint(equalToConstant: 280)
         ])
     }
 
-    private func configureButtonActions() {
-        submitButton.addTarget(self, action: #selector(submitButtonTapped), for: .touchUpInside)
+    private func establishInteractionProtocols() {
+        transmissionPillar.addTarget(self, action: #selector(transmissionPillarPercussed), for: .touchUpInside)
     }
 
-    @objc private func submitButtonTapped() {
-        let feedbackText = feedbackTextView.text.trimmingCharacters(in: .whitespacesAndNewlines)
+    @objc private func transmissionPillarPercussed() {
+        let feedbackText = narrativeCompositionField.text.trimmingCharacters(in: .whitespacesAndNewlines)
 
         guard !feedbackText.isEmpty else {
-            ElegantDialogView.displayAlert(
+            OpulentInquiryPanel.renderInquisitivePanel(
                 title: "Empty Feedback",
                 message: "Please enter your feedback before submitting.",
-                actions: [("OK", .primary, {})]
+                actions: [("OK", .paramount, {})]
             )
             return
         }
 
-        let feedbackEntry = FeedbackEntry(feedbackContent: feedbackText, submissionDate: Date())
-        PersistentStorageManager.sharedInstance.saveFeedbackEntry(feedbackEntry)
+        let feedbackEntry = ObservationTestimony(narrativeSubstance: feedbackText, inscriptionMoment: Date())
+        ArchivedRepositoryKeeper.sovereignExemplar.archiveObservationTestimony(feedbackEntry)
 
-        ElegantDialogView.displayAlert(
+        OpulentInquiryPanel.renderInquisitivePanel(
             title: "Thank You!",
             message: "Your feedback has been submitted.",
             actions: [
-                ("OK", .primary, { [weak self] in
+                ("OK", .paramount, { [weak self] in
                     self?.dismiss(animated: true)
                 })
             ]
         )
     }
 
-    @objc private func closeButtonTapped() {
+    @objc private func withdrawalPercussionDetected() {
         dismiss(animated: true)
     }
 }
 
 // MARK: - UITextViewDelegate
 
-extension FeedbackViewController: UITextViewDelegate {
+extension PatronageVoiceCollector: UITextViewDelegate {
     func textViewDidChange(_ textView: UITextView) {
-        placeholderLabel.isHidden = !textView.text.isEmpty
+        instructionalGhostText.isHidden = !textView.text.isEmpty
     }
 
     func textViewDidBeginEditing(_ textView: UITextView) {
-        placeholderLabel.isHidden = true
+        instructionalGhostText.isHidden = true
     }
 
     func textViewDidEndEditing(_ textView: UITextView) {
-        placeholderLabel.isHidden = !textView.text.isEmpty
+        instructionalGhostText.isHidden = !textView.text.isEmpty
     }
 }
