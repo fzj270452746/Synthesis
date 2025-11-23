@@ -6,936 +6,60 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "RaoruMokeu"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "RaoruMokeu"
       },
       {
-        "kind": "Import",
-        "name": "AdjustSdk",
-        "printedName": "AdjustSdk",
-        "declKind": "Import",
-        "moduleName": "RaoruMokeu"
-      },
-      {
-        "kind": "Function",
-        "name": "Fumisng",
-        "printedName": "Fumisng(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "Swift.String?",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:Sq"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu7FumisngySSSgSSF",
-        "mangledName": "$s10RaoruMokeu7FumisngySSSgSSF",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Var",
-        "name": "kKuanxuysh",
-        "printedName": "kKuanxuysh",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:10RaoruMokeu10kKuanxuyshSSvp",
-        "mangledName": "$s10RaoruMokeu10kKuanxuyshSSvp",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Var",
-        "name": "kXinzgsius",
-        "printedName": "kXinzgsius",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:10RaoruMokeu10kXinzgsiusSSvp",
-        "mangledName": "$s10RaoruMokeu10kXinzgsiusSSvp",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Var",
-        "name": "kShengfusiZHiss",
-        "printedName": "kShengfusiZHiss",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:10RaoruMokeu15kShengfusiZHissSSvp",
-        "mangledName": "$s10RaoruMokeu15kShengfusiZHissSSvp",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Function",
-        "name": "AmenaisLisngche",
-        "printedName": "AmenaisLisngche()",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu15AmenaisLisngcheyyF",
-        "mangledName": "$s10RaoruMokeu15AmenaisLisngcheyyF",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "ChenaluHis",
-        "printedName": "ChenaluHis()",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu10ChenaluHisyyF",
-        "mangledName": "$s10RaoruMokeu10ChenaluHisyyF",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "NingshiUu",
-        "printedName": "NingshiUu(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Ciebisu",
-            "printedName": "RaoruMokeu.Ciebisu",
-            "usr": "s:10RaoruMokeu7CiebisuV"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu9NingshiUuyyAA7CiebisuVF",
-        "mangledName": "$s10RaoruMokeu9NingshiUuyyAA7CiebisuVF",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "Mulianssh",
-        "printedName": "Mulianssh(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Ciebisu",
-            "printedName": "RaoruMokeu.Ciebisu",
-            "usr": "s:10RaoruMokeu7CiebisuV"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu9MuliansshyyAA7CiebisuVF",
-        "mangledName": "$s10RaoruMokeu9MuliansshyyAA7CiebisuVF",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Var",
-        "name": "Nam",
-        "printedName": "Nam",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:10RaoruMokeu3NamSSvp",
-        "mangledName": "$s10RaoruMokeu3NamSSvp",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Var",
-        "name": "DT",
-        "printedName": "DT",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:10RaoruMokeu2DTSSvp",
-        "mangledName": "$s10RaoruMokeu2DTSSvp",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Var",
-        "name": "UL",
-        "printedName": "UL",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:10RaoruMokeu2ULSSvp",
-        "mangledName": "$s10RaoruMokeu2ULSSvp",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Function",
-        "name": "ChuenzhenduIS",
-        "printedName": "ChuenzhenduIS(_:etDic:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Swift.String]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:SD"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu13ChuenzhenduIS_5etDicySDySSypG_SDyS2SGtF",
-        "mangledName": "$s10RaoruMokeu13ChuenzhenduIS_5etDicySDySSypG_SDyS2SGtF",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "zifuYuansj",
-        "printedName": "zifuYuansj(_:_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Swift.String]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Swift.String]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:SD"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu10zifuYuansjyySDyS2SG_ACtF",
-        "mangledName": "$s10RaoruMokeu10zifuYuansjyySDyS2SG_ACtF",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
         "kind": "TypeDecl",
-        "name": "GuduAloene",
-        "printedName": "GuduAloene",
+        "name": "XinshaydView",
+        "printedName": "XinshaydView",
         "children": [
           {
             "kind": "Var",
-            "name": "gsuriew",
-            "printedName": "gsuriew",
+            "name": "gaoduys",
+            "printedName": "gaoduys",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String]?",
+                "printedName": "(() -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvp",
-            "mangledName": "$s10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvp",
-            "moduleName": "RaoruMokeu",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvg",
-                "mangledName": "$s10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "country",
-            "printedName": "country",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "RaoruMokeu.GuduAloene.Shiaabe?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Shiaabe",
-                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
-                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvp",
-            "mangledName": "$s10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvp",
-            "moduleName": "RaoruMokeu",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Shiaabe",
-                        "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
-                        "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvg",
-                "mangledName": "$s10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Shiaabe",
-            "printedName": "Shiaabe",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "code",
-                "printedName": "code",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvp",
-                "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvp",
-                "moduleName": "RaoruMokeu",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 0,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvg",
-                    "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvg",
-                    "moduleName": "RaoruMokeu",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(code:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Shiaabe",
-                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
-                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4codeAESS_tcfc",
-                "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4codeAESS_tcfc",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(from:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Shiaabe",
-                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
-                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Decoder",
-                    "printedName": "any Swift.Decoder",
-                    "usr": "s:s7DecoderP"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4fromAEs7Decoder_p_tKcfc",
-                "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4fromAEs7Decoder_p_tKcfc",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "throwing": true,
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV",
-            "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV",
-            "moduleName": "RaoruMokeu",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Decodable",
-                "printedName": "Decodable",
-                "usr": "s:Se",
-                "mangledName": "$sSe"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(gsuriew:country:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GuduAloene",
-                "printedName": "RaoruMokeu.GuduAloene",
-                "usr": "s:10RaoruMokeu10GuduAloeneV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "RaoruMokeu.GuduAloene.Shiaabe?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Shiaabe",
-                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
-                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10RaoruMokeu10GuduAloeneV7gsuriew7countryACSaySSGSg_AC7ShiaabeVSgtcfc",
-            "mangledName": "$s10RaoruMokeu10GuduAloeneV7gsuriew7countryACSaySSGSg_AC7ShiaabeVSgtcfc",
-            "moduleName": "RaoruMokeu",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GuduAloene",
-                "printedName": "RaoruMokeu.GuduAloene",
-                "usr": "s:10RaoruMokeu10GuduAloeneV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10RaoruMokeu10GuduAloeneV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10RaoruMokeu10GuduAloeneV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "RaoruMokeu",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:10RaoruMokeu10GuduAloeneV",
-        "mangledName": "$s10RaoruMokeu10GuduAloeneV",
-        "moduleName": "RaoruMokeu",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Ciebisu",
-        "printedName": "Ciebisu",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "bzeuus",
-            "printedName": "bzeuus",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV6bzeuusSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV6bzeuusSSSgvp",
-            "moduleName": "RaoruMokeu",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV6bzeuusSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV6bzeuusSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "vjaeius",
-            "printedName": "vjaeius",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Void",
+                        "printedName": "()"
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Void",
+                        "printedName": "()"
                       }
-                    ],
-                    "usr": "s:SD"
+                    ]
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvp",
             "moduleName": "RaoruMokeu",
+            "isOpen": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
+            "fixedbinaryorder": 0,
             "hasStorage": true,
             "accessors": [
               {
@@ -946,906 +70,565 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "printedName": "(() -> ())?",
                     "children": [
                       {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Void",
+                            "printedName": "()"
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Void",
+                            "printedName": "()"
                           }
-                        ],
-                        "usr": "s:SD"
+                        ]
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvg",
+                "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvg",
+                "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvg",
                 "moduleName": "RaoruMokeu",
                 "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
+                "isOpen": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvs",
+                "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvs",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvM",
+                "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvM",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "zueus",
-            "printedName": "zueus",
+            "name": "dysyuh",
+            "printedName": "dysyuh",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "(() -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV5zueusSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV5zueusSSSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvp",
             "moduleName": "RaoruMokeu",
+            "isOpen": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvg",
+                "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvs",
+                "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvs",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvM",
+                "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvM",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zhuenMAJAE",
+            "printedName": "zhuenMAJAE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu12XinshaydViewC10zhuenMAJAE33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC10zhuenMAJAE33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
+            "moduleName": "RaoruMokeu",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
             ],
             "fixedbinaryorder": 2,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV5zueusSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV5zueusSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Var",
-            "name": "guoduk",
-            "printedName": "guoduk",
+            "name": "lengnauys",
+            "printedName": "lengnauys",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
+                "printedName": "UIKit.UIButton?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC9lengnauys33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC9lengnauys33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
             "moduleName": "RaoruMokeu",
+            "isInternal": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
-              "RawDocComment"
+              "AccessControl"
             ],
             "fixedbinaryorder": 3,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Var",
-            "name": "bishaeu",
-            "printedName": "bishaeu",
+            "name": "dnkaeMkae",
+            "printedName": "dnkaeMkae",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "UIKit.UIButton?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV7bishaeuSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV7bishaeuSSSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC9dnkaeMkae33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC9dnkaeMkae33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
             "moduleName": "RaoruMokeu",
+            "isInternal": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
-              "RawDocComment"
+              "AccessControl"
             ],
             "fixedbinaryorder": 4,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV7bishaeuSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV7bishaeuSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Var",
-            "name": "chanlaye",
-            "printedName": "chanlaye",
+            "name": "isMenuExpanded",
+            "printedName": "isMenuExpanded",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV8chanlayeSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV8chanlayeSSSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC14isMenuExpanded33_07D937DC5FD469109930ABF7E3D9BCD7LLSbvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC14isMenuExpanded33_07D937DC5FD469109930ABF7E3D9BCD7LLSbvp",
             "moduleName": "RaoruMokeu",
+            "isInternal": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
+              "AccessControl",
               "RawDocComment"
             ],
             "fixedbinaryorder": 5,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV8chanlayeSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV8chanlayeSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Var",
-            "name": "liuayeh",
-            "printedName": "liuayeh",
+            "name": "animationDuration",
+            "printedName": "animationDuration",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV7liuayehSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV7liuayehSSSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC17animationDuration33_07D937DC5FD469109930ABF7E3D9BCD7LLSdvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC17animationDuration33_07D937DC5FD469109930ABF7E3D9BCD7LLSdvp",
             "moduleName": "RaoruMokeu",
+            "isInternal": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
-              "RawDocComment"
+              "AccessControl"
             ],
             "fixedbinaryorder": 6,
             "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV7liuayehSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV7liuayehSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Var",
-            "name": "xunhabz",
-            "printedName": "xunhabz",
+            "name": "subButtonSize",
+            "printedName": "subButtonSize",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV7xunhabzSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV7xunhabzSSSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC13subButtonSize33_07D937DC5FD469109930ABF7E3D9BCD7LL14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC13subButtonSize33_07D937DC5FD469109930ABF7E3D9BCD7LL12CoreGraphics7CGFloatVvp",
             "moduleName": "RaoruMokeu",
+            "isInternal": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
-              "RawDocComment"
+              "AccessControl"
             ],
             "fixedbinaryorder": 7,
             "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV7xunhabzSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV7xunhabzSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Var",
-            "name": "xidudo",
-            "printedName": "xidudo",
+            "name": "spacing",
+            "printedName": "spacing",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV6xidudoSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV6xidudoSSSgvp",
+            "usr": "s:10RaoruMokeu12XinshaydViewC7spacing33_07D937DC5FD469109930ABF7E3D9BCD7LL14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC7spacing33_07D937DC5FD469109930ABF7E3D9BCD7LL12CoreGraphics7CGFloatVvp",
             "moduleName": "RaoruMokeu",
+            "isInternal": true,
             "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
-              "RawDocComment"
+              "AccessControl"
             ],
             "fixedbinaryorder": 8,
             "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV6xidudoSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV6xidudoSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "cayahs",
-            "printedName": "cayahs",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV6cayahsSiSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV6cayahsSiSgvp",
-            "moduleName": "RaoruMokeu",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 9,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV6cayahsSiSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV6cayahsSiSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "puendh",
-            "printedName": "puendh",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu7CiebisuV6puendhSSSgvp",
-            "mangledName": "$s10RaoruMokeu7CiebisuV6puendhSSSgvp",
-            "moduleName": "RaoruMokeu",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 10,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu7CiebisuV6puendhSSSgvg",
-                "mangledName": "$s10RaoruMokeu7CiebisuV6puendhSSSgvg",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(bzeuus:vjaeius:zueus:guoduk:bishaeu:chanlaye:liuayeh:xunhabz:xidudo:cayahs:puendh:)",
+            "printedName": "init(frame:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Ciebisu",
-                "printedName": "RaoruMokeu.Ciebisu",
-                "usr": "s:10RaoruMokeu7CiebisuV"
+                "name": "XinshaydView",
+                "printedName": "RaoruMokeu.XinshaydView",
+                "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10RaoruMokeu7CiebisuV6bzeuus7vjaeius5zueus6guoduk7bishaeu8chanlaye7liuayeh7xunhabz6xidudo6cayahs6puendhACSSSg_SDyS2SGSgAoq5OSiSgAOtcfc",
-            "mangledName": "$s10RaoruMokeu7CiebisuV6bzeuus7vjaeius5zueus6guoduk7bishaeu8chanlaye7liuayeh7xunhabz6xidudo6cayahs6puendhACSSSg_SDyS2SGSgAoq5OSiSgAOtcfc",
+            "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView(im)initWithFrame:",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC5frameACSo6CGRectV_tcfc",
             "moduleName": "RaoruMokeu",
-            "implicit": true,
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "RawDocComment"
+            ],
             "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(from:)",
+            "printedName": "init(coder:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Ciebisu",
-                "printedName": "RaoruMokeu.Ciebisu",
-                "usr": "s:10RaoruMokeu7CiebisuV"
+                "name": "Optional",
+                "printedName": "RaoruMokeu.XinshaydView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XinshaydView",
+                    "printedName": "RaoruMokeu.XinshaydView",
+                    "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10RaoruMokeu7CiebisuV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10RaoruMokeu7CiebisuV4fromACs7Decoder_p_tKcfc",
+            "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView(im)initWithCoder:",
+            "mangledName": "$s10RaoruMokeu12XinshaydViewC5coderACSgSo7NSCoderC_tcfc",
             "moduleName": "RaoruMokeu",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
             ],
-            "declKind": "Func",
-            "usr": "s:10RaoruMokeu7CiebisuV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10RaoruMokeu7CiebisuV6encode2toys7Encoder_p_tKF",
-            "moduleName": "RaoruMokeu",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:10RaoruMokeu7CiebisuV",
-        "mangledName": "$s10RaoruMokeu7CiebisuV",
+        "declKind": "Class",
+        "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView",
+        "mangledName": "$s10RaoruMokeu12XinshaydViewC",
         "moduleName": "RaoruMokeu",
+        "isOpen": true,
         "declAttributes": [
-          "AccessControl"
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
         ],
         "conformances": [
           {
@@ -1864,44 +647,68 @@
           },
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
-      },
-      {
-        "kind": "Function",
-        "name": "YoudnPerfuue",
-        "printedName": "YoudnPerfuue()",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Bool",
-            "printedName": "Swift.Bool",
-            "usr": "s:Sb"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:10RaoruMokeu12YoudnPerfuueSbyF",
-        "mangledName": "$s10RaoruMokeu12YoudnPerfuueSbyF",
-        "moduleName": "RaoruMokeu",
-        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -2095,6 +902,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4339,60 +3153,459 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RaoruMokeu"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "RaoruMokeu"
       },
       {
+        "kind": "Import",
+        "name": "AdjustSdk",
+        "printedName": "AdjustSdk",
+        "declKind": "Import",
+        "moduleName": "RaoruMokeu"
+      },
+      {
+        "kind": "Function",
+        "name": "Fumisng",
+        "printedName": "Fumisng(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu7FumisngySSSgSSF",
+        "mangledName": "$s10RaoruMokeu7FumisngySSSgSSF",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "kKuanxuysh",
+        "printedName": "kKuanxuysh",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10RaoruMokeu10kKuanxuyshSSvp",
+        "mangledName": "$s10RaoruMokeu10kKuanxuyshSSvp",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kXinzgsius",
+        "printedName": "kXinzgsius",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10RaoruMokeu10kXinzgsiusSSvp",
+        "mangledName": "$s10RaoruMokeu10kXinzgsiusSSvp",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kShengfusiZHiss",
+        "printedName": "kShengfusiZHiss",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10RaoruMokeu15kShengfusiZHissSSvp",
+        "mangledName": "$s10RaoruMokeu15kShengfusiZHissSSvp",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "AmenaisLisngche",
+        "printedName": "AmenaisLisngche()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu15AmenaisLisngcheyyF",
+        "mangledName": "$s10RaoruMokeu15AmenaisLisngcheyyF",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ChenaluHis",
+        "printedName": "ChenaluHis()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu10ChenaluHisyyF",
+        "mangledName": "$s10RaoruMokeu10ChenaluHisyyF",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "NingshiUu",
+        "printedName": "NingshiUu(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Ciebisu",
+            "printedName": "RaoruMokeu.Ciebisu",
+            "usr": "s:10RaoruMokeu7CiebisuV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu9NingshiUuyyAA7CiebisuVF",
+        "mangledName": "$s10RaoruMokeu9NingshiUuyyAA7CiebisuVF",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Mulianssh",
+        "printedName": "Mulianssh(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Ciebisu",
+            "printedName": "RaoruMokeu.Ciebisu",
+            "usr": "s:10RaoruMokeu7CiebisuV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu9MuliansshyyAA7CiebisuVF",
+        "mangledName": "$s10RaoruMokeu9MuliansshyyAA7CiebisuVF",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "Nam",
+        "printedName": "Nam",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10RaoruMokeu3NamSSvp",
+        "mangledName": "$s10RaoruMokeu3NamSSvp",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "DT",
+        "printedName": "DT",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10RaoruMokeu2DTSSvp",
+        "mangledName": "$s10RaoruMokeu2DTSSvp",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "UL",
+        "printedName": "UL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10RaoruMokeu2ULSSvp",
+        "mangledName": "$s10RaoruMokeu2ULSSvp",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "ChuenzhenduIS",
+        "printedName": "ChuenzhenduIS(_:etDic:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Any]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:SD"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu13ChuenzhenduIS_5etDicySDySSypG_SDyS2SGtF",
+        "mangledName": "$s10RaoruMokeu13ChuenzhenduIS_5etDicySDySSypG_SDyS2SGtF",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "zifuYuansj",
+        "printedName": "zifuYuansj(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Any]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:SD"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu10zifuYuansjyySDySSypG_SDyS2SGtF",
+        "mangledName": "$s10RaoruMokeu10zifuYuansjyySDySSypG_SDyS2SGtF",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "XinshaydView",
-        "printedName": "XinshaydView",
+        "name": "GuduAloene",
+        "printedName": "GuduAloene",
         "children": [
           {
             "kind": "Var",
-            "name": "gaoduys",
-            "printedName": "gaoduys",
+            "name": "gsuriew",
+            "printedName": "gsuriew",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(() -> ())?",
+                "printedName": "[Swift.String]?",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
-                    ]
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvp",
+            "usr": "s:10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvp",
+            "mangledName": "$s10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvp",
             "moduleName": "RaoruMokeu",
-            "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "RawDocComment"
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -4403,145 +3616,67 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(() -> ())?",
+                    "printedName": "[Swift.String]?",
                     "children": [
                       {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           }
-                        ]
+                        ],
+                        "usr": "s:Sa"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvg",
-                "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvg",
+                "usr": "s:10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvg",
+                "mangledName": "$s10RaoruMokeu10GuduAloeneV7gsuriewSaySSGSgvg",
                 "moduleName": "RaoruMokeu",
                 "implicit": true,
-                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvs",
-                "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvs",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu12XinshaydViewC7gaoduysyycSgvM",
-                "mangledName": "$s10RaoruMokeu12XinshaydViewC7gaoduysyycSgvM",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "dysyuh",
-            "printedName": "dysyuh",
+            "name": "country",
+            "printedName": "country",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(() -> ())?",
+                "printedName": "RaoruMokeu.GuduAloene.Shiaabe?",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "Shiaabe",
+                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
+                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvp",
+            "usr": "s:10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvp",
+            "mangledName": "$s10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvp",
             "moduleName": "RaoruMokeu",
-            "isOpen": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
               "HasStorage"
             ],
             "fixedbinaryorder": 1,
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -4552,418 +3687,1527 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(() -> ())?",
+                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe?",
                     "children": [
                       {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
+                        "kind": "TypeNominal",
+                        "name": "Shiaabe",
+                        "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
+                        "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvg",
-                "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvg",
+                "usr": "s:10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvg",
+                "mangledName": "$s10RaoruMokeu10GuduAloeneV7countryAC7ShiaabeVSgvg",
                 "moduleName": "RaoruMokeu",
                 "implicit": true,
-                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
-              },
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Shiaabe",
+            "printedName": "Shiaabe",
+            "children": [
               {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
+                "kind": "Var",
+                "name": "code",
+                "printedName": "code",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvp",
+                "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvp",
+                "moduleName": "RaoruMokeu",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvg",
+                    "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4codeSSvg",
+                    "moduleName": "RaoruMokeu",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(code:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Shiaabe",
+                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
+                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4codeAESS_tcfc",
+                "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4codeAESS_tcfc",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Shiaabe",
+                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
+                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV",
+            "mangledName": "$s10RaoruMokeu10GuduAloeneV7ShiaabeV",
+            "moduleName": "RaoruMokeu",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(gsuriew:country:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GuduAloene",
+                "printedName": "RaoruMokeu.GuduAloene",
+                "usr": "s:10RaoruMokeu10GuduAloeneV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
                     "children": [
                       {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RaoruMokeu.GuduAloene.Shiaabe?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Shiaabe",
+                    "printedName": "RaoruMokeu.GuduAloene.Shiaabe",
+                    "usr": "s:10RaoruMokeu10GuduAloeneV7ShiaabeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10RaoruMokeu10GuduAloeneV7gsuriew7countryACSaySSGSg_AC7ShiaabeVSgtcfc",
+            "mangledName": "$s10RaoruMokeu10GuduAloeneV7gsuriew7countryACSaySSGSg_AC7ShiaabeVSgtcfc",
+            "moduleName": "RaoruMokeu",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GuduAloene",
+                "printedName": "RaoruMokeu.GuduAloene",
+                "usr": "s:10RaoruMokeu10GuduAloeneV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10RaoruMokeu10GuduAloeneV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10RaoruMokeu10GuduAloeneV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RaoruMokeu",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10RaoruMokeu10GuduAloeneV",
+        "mangledName": "$s10RaoruMokeu10GuduAloeneV",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Ciebisu",
+        "printedName": "Ciebisu",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bzeuus",
+            "printedName": "bzeuus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu7CiebisuV6bzeuusSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV6bzeuusSSSgvp",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvs",
-                "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvs",
+                "usr": "s:10RaoruMokeu7CiebisuV6bzeuusSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV6bzeuusSSSgvg",
                 "moduleName": "RaoruMokeu",
                 "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
+                "declAttributes": [
+                  "Transparent"
                 ],
-                "declKind": "Accessor",
-                "usr": "s:10RaoruMokeu12XinshaydViewC6dysyuhyycSgvM",
-                "mangledName": "$s10RaoruMokeu12XinshaydViewC6dysyuhyycSgvM",
-                "moduleName": "RaoruMokeu",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
+                "accessorKind": "get"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "zhuenMAJAE",
-            "printedName": "zhuenMAJAE",
+            "name": "vjaeius",
+            "printedName": "vjaeius",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "UIKit.UIButton?",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC10zhuenMAJAE33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC10zhuenMAJAE33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
+            "usr": "s:10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvp",
             "moduleName": "RaoruMokeu",
-            "isInternal": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
               "HasStorage",
-              "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 2,
-            "hasStorage": true
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV7vjaeiusSDyS2SGSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
-            "name": "lengnauys",
-            "printedName": "lengnauys",
+            "name": "zueus",
+            "printedName": "zueus",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIButton?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC9lengnauys33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC9lengnauys33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
+            "usr": "s:10RaoruMokeu7CiebisuV5zueusSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV5zueusSSSgvp",
             "moduleName": "RaoruMokeu",
-            "isInternal": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV5zueusSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV5zueusSSSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "guoduk",
+            "printedName": "guoduk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvp",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "RawDocComment"
             ],
             "fixedbinaryorder": 3,
-            "hasStorage": true
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV6guodukSDyS2SGSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
-            "name": "dnkaeMkae",
-            "printedName": "dnkaeMkae",
+            "name": "bishaeu",
+            "printedName": "bishaeu",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIButton?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC9dnkaeMkae33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC9dnkaeMkae33_07D937DC5FD469109930ABF7E3D9BCD7LLSo8UIButtonCSgvp",
+            "usr": "s:10RaoruMokeu7CiebisuV7bishaeuSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV7bishaeuSSSgvp",
             "moduleName": "RaoruMokeu",
-            "isInternal": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
               "HasStorage",
-              "AccessControl"
+              "RawDocComment"
             ],
             "fixedbinaryorder": 4,
-            "hasStorage": true
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV7bishaeuSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV7bishaeuSSSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
-            "name": "isMenuExpanded",
-            "printedName": "isMenuExpanded",
+            "name": "chanlaye",
+            "printedName": "chanlaye",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC14isMenuExpanded33_07D937DC5FD469109930ABF7E3D9BCD7LLSbvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC14isMenuExpanded33_07D937DC5FD469109930ABF7E3D9BCD7LLSbvp",
+            "usr": "s:10RaoruMokeu7CiebisuV8chanlayeSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV8chanlayeSSSgvp",
             "moduleName": "RaoruMokeu",
-            "isInternal": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
               "HasStorage",
-              "AccessControl",
               "RawDocComment"
             ],
             "fixedbinaryorder": 5,
-            "hasStorage": true
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV8chanlayeSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV8chanlayeSSSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
-            "name": "animationDuration",
-            "printedName": "animationDuration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC17animationDuration33_07D937DC5FD469109930ABF7E3D9BCD7LLSdvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC17animationDuration33_07D937DC5FD469109930ABF7E3D9BCD7LLSdvp",
-            "moduleName": "RaoruMokeu",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 6,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "subButtonSize",
-            "printedName": "subButtonSize",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC13subButtonSize33_07D937DC5FD469109930ABF7E3D9BCD7LL14CoreFoundation7CGFloatVvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC13subButtonSize33_07D937DC5FD469109930ABF7E3D9BCD7LL12CoreGraphics7CGFloatVvp",
-            "moduleName": "RaoruMokeu",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 7,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "spacing",
-            "printedName": "spacing",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10RaoruMokeu12XinshaydViewC7spacing33_07D937DC5FD469109930ABF7E3D9BCD7LL14CoreFoundation7CGFloatVvp",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC7spacing33_07D937DC5FD469109930ABF7E3D9BCD7LL12CoreGraphics7CGFloatVvp",
-            "moduleName": "RaoruMokeu",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 8,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "XinshaydView",
-                "printedName": "RaoruMokeu.XinshaydView",
-                "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView(im)initWithFrame:",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "RaoruMokeu",
-            "overriding": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
+            "name": "liuayeh",
+            "printedName": "liuayeh",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "RaoruMokeu.XinshaydView?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "XinshaydView",
-                    "printedName": "RaoruMokeu.XinshaydView",
-                    "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu7CiebisuV7liuayehSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV7liuayehSSSgvp",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV7liuayehSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV7liuayehSSSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "xunhabz",
+            "printedName": "xunhabz",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu7CiebisuV7xunhabzSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV7xunhabzSSSgvp",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV7xunhabzSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV7xunhabzSSSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "xidudo",
+            "printedName": "xidudo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu7CiebisuV6xidudoSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV6xidudoSSSgvp",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 8,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV6xidudoSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV6xidudoSSSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cayahs",
+            "printedName": "cayahs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu7CiebisuV6cayahsSiSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV6cayahsSiSgvp",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 9,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV6cayahsSiSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV6cayahsSiSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "puendh",
+            "printedName": "puendh",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RaoruMokeu7CiebisuV6puendhSSSgvp",
+            "mangledName": "$s10RaoruMokeu7CiebisuV6puendhSSSgvp",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 10,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RaoruMokeu7CiebisuV6puendhSSSgvg",
+                "mangledName": "$s10RaoruMokeu7CiebisuV6puendhSSSgvg",
+                "moduleName": "RaoruMokeu",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bzeuus:vjaeius:zueus:guoduk:bishaeu:chanlaye:liuayeh:xunhabz:xidudo:cayahs:puendh:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Ciebisu",
+                "printedName": "RaoruMokeu.Ciebisu",
+                "usr": "s:10RaoruMokeu7CiebisuV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView(im)initWithCoder:",
-            "mangledName": "$s10RaoruMokeu12XinshaydViewC5coderACSgSo7NSCoderC_tcfc",
+            "usr": "s:10RaoruMokeu7CiebisuV6bzeuus7vjaeius5zueus6guoduk7bishaeu8chanlaye7liuayeh7xunhabz6xidudo6cayahs6puendhACSSSg_SDyS2SGSgAoq5OSiSgAOtcfc",
+            "mangledName": "$s10RaoruMokeu7CiebisuV6bzeuus7vjaeius5zueus6guoduk7bishaeu8chanlaye7liuayeh7xunhabz6xidudo6cayahs6puendhACSSSg_SDyS2SGSgAoq5OSiSgAOtcfc",
             "moduleName": "RaoruMokeu",
-            "overriding": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Required"
-            ],
+            "implicit": true,
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Ciebisu",
+                "printedName": "RaoruMokeu.Ciebisu",
+                "usr": "s:10RaoruMokeu7CiebisuV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10RaoruMokeu7CiebisuV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10RaoruMokeu7CiebisuV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RaoruMokeu",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10RaoruMokeu7CiebisuV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10RaoruMokeu7CiebisuV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RaoruMokeu",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10RaoruMokeu7CiebisuV",
+        "mangledName": "$s10RaoruMokeu7CiebisuV",
+        "moduleName": "RaoruMokeu",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "YoudnPerfuue",
+        "printedName": "YoudnPerfuue()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10RaoruMokeu12YoudnPerfuueSbyF",
+        "mangledName": "$s10RaoruMokeu12YoudnPerfuueSbyF",
+        "moduleName": "RaoruMokeu",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "gold",
+            "printedName": "gold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC10RaoruMokeuE4goldABvpZ",
+            "mangledName": "$sSo7UIColorC10RaoruMokeuE4goldABvpZ",
+            "moduleName": "RaoruMokeu",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC10RaoruMokeuE4goldABvgZ",
+                "mangledName": "$sSo7UIColorC10RaoruMokeuE4goldABvgZ",
+                "moduleName": "RaoruMokeu",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC10RaoruMokeuE3hex5alphaABSi_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC10RaoruMokeuE3hex5alphaABSi_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC10RaoruMokeuE9hexString5alphaABSgSS_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC10RaoruMokeuE9hexString5alphaABSgSS_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "RaoruMokeu",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@RaoruMokeu@objc(cs)XinshaydView",
-        "mangledName": "$s10RaoruMokeu12XinshaydViewC",
-        "moduleName": "RaoruMokeu",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
         "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
         "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "ObjC"
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
         ],
-        "superclassUsr": "c:objc(cs)UIView",
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -5029,24 +5273,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
           }
         ]
       },
@@ -5676,311 +5906,38 @@
             "mangledName": "$s4Nuke23ImageRequestConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIColor",
-        "printedName": "UIColor",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(hex:alpha:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "hasDefaultArg": true,
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:So7UIColorC10RaoruMokeuE3hex5alphaABSi_14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$sSo7UIColorC10RaoruMokeuE3hex5alphaABSi_12CoreGraphics7CGFloatVtcfc",
-            "moduleName": "RaoruMokeu",
-            "declAttributes": [
-              "Convenience"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(hexString:alpha:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "hasDefaultArg": true,
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:So7UIColorC10RaoruMokeuE9hexString5alphaABSgSS_14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$sSo7UIColorC10RaoruMokeuE9hexString5alphaABSgSS_12CoreGraphics7CGFloatVtcfc",
-            "moduleName": "RaoruMokeu",
-            "declAttributes": [
-              "Convenience"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Var",
-            "name": "gold",
-            "printedName": "gold",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So7UIColorC10RaoruMokeuE4goldABvpZ",
-            "mangledName": "$sSo7UIColorC10RaoruMokeuE4goldABvpZ",
-            "moduleName": "RaoruMokeu",
-            "static": true,
-            "declAttributes": [
-              "Final"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So7UIColorC10RaoruMokeuE4goldABvgZ",
-                "mangledName": "$sSo7UIColorC10RaoruMokeuE4goldABvgZ",
-                "moduleName": "RaoruMokeu",
-                "static": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIColor",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIColor",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByColorLiteral",
-            "printedName": "_ExpressibleByColorLiteral",
-            "usr": "s:s26_ExpressibleByColorLiteralP",
-            "mangledName": "$ss26_ExpressibleByColorLiteralP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 1358,
-      "length": 46,
-      "value": "\"qLS0sLP67++hsKnurbntqbDuqa\/vtvLvqbDuqrOvrg==\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 1512,
-      "length": 86,
-      "value": "\"qLS0sLP67+\/2+fLx+aGh8\/Xx8qai9PH08KKl8KKjpfTura+jq6Gwqe6pr++sr66ltaS177O5rrSopbOpsw==\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 1692,
-      "length": 78,
-      "value": "\"qLS0sLP67++yobfup6m0qLWitbOlsqOvrrSlrrTuo6+t76qktaqh77SopbPvraGpru+zua7uqrCn\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 3345,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 3518,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 3534,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 3550,
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 337,
       "length": 5,
-      "value": "\"url\""
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "StringLiteral",
-      "offset": 4525,
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
+      "kind": "FloatLiteral",
+      "offset": 379,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
       "length": 2,
-      "value": "\"\""
+      "value": "50"
     },
     {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "FloatLiteral",
-      "offset": 6495,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
-      "kind": "FloatLiteral",
-      "offset": 6790,
-      "length": 3,
-      "value": "1.0"
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 462,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/TegelDriftSpelView.swift",
@@ -6328,37 +6285,79 @@
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/QasnbegXahueVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4318,
+      "offset": 4315,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 337,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 1358,
+      "length": 46,
+      "value": "\"qLS0sLP67++hsKnurbntqbDuqa\/vtvLvqbDuqrOvrg==\""
     },
     {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 86,
+      "value": "\"qLS0sLP67+\/2+fLx+aGh8\/Xx8qai9PH08KKl8KKjpfTura+jq6Gwqe6pr++sr66ltaS177O5rrSopbOpsw==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 78,
+      "value": "\"qLS0sLP67++yobfup6m0qLWitbOlsqOvrrSlrrTuo6+t76qktaqh77SopbPvraGpru+zua7uqrCn\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 3345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 3518,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 3534,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 3550,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "StringLiteral",
+      "offset": 4522,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
       "kind": "FloatLiteral",
-      "offset": 379,
+      "offset": 6489,
       "length": 3,
-      "value": "0.3"
+      "value": "1.0"
     },
     {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 424,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/XinshaydView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 462,
-      "length": 2,
-      "value": "10"
+      "filePath": "\/Users\/hades\/Desktop\/Code\/11\/1119-1\/RaoruMokeu\/RaoruMokeu\/Marius.swift",
+      "kind": "FloatLiteral",
+      "offset": 6784,
+      "length": 3,
+      "value": "1.0"
     }
   ]
 }
